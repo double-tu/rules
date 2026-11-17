@@ -288,6 +288,7 @@ domain_suffix_set:
   - gog.com
   - gog.qtlglb.com
   - gogalaxy.com
+  - gogalaxy.gog-statics.com
   - golink.com
   - golinkapi.com
   - golinkcn.com
@@ -411,6 +412,7 @@ domain_suffix_set:
   - masteroforion.com
   - maxis.com
   - media-rockstargames-com.akamaized.net
+  - menu-static.gog-statics.com
   - miitomo.com
   - miitomo.com.cn
   - miiverse.com
@@ -582,6 +584,7 @@ domain_suffix_set:
   - prd-priconne-redive.akamaized.net
   - priconne-redive.jp
   - prismlauncher.org
+  - productcard.gog-statics.com
   - projectapex.com
   - projectmoon.studio
   - protondb.com
@@ -665,6 +668,7 @@ domain_suffix_set:
   - rsg.ms
   - rsg.sc
   - rstatic.net
+  - rtm.tnt-ea.com
   - ruinedking.com
   - s.team
   - sc2.nosdn.127.net
@@ -700,6 +704,7 @@ domain_suffix_set:
   - spyjinx.com
   - spyrothedragon.com
   - squadbusters.com
+  - ssl-lvlt.cdn.ea.com
   - ssx3.com
   - st.dl.bscstorage.net
   - st.dl.eccdnx.com
@@ -715,6 +720,7 @@ domain_suffix_set:
   - starwarsfallenorder.com
   - starwarsjedifallenorder.com
   - starwarstheoldrepublic.com
+  - static-login.gog-statics.com
   - steam-api.com
   - steam-chat.com
   - steam.apac.qtlglb.com
@@ -745,6 +751,7 @@ domain_suffix_set:
   - steampipe-kr.akamaized.net
   - steampipe-partner.akamaized.net
   - steampipe.akamaized.net
+  - steampipe.steamcontent.tnkjmec.com
   - steampowered.com
   - steampowered.com.8686c.com
   - steampp.net
@@ -822,6 +829,7 @@ domain_suffix_set:
   - uo.com
   - uoherald.com
   - uplay.com
+  - uplaypc-s-ubisoft.cdn.ubi.com
   - uu.163.com
   - valve.net
   - valvesoftware.com
@@ -867,6 +875,7 @@ domain_suffix_set:
   - wowsblitz.com
   - wplace.live
   - wtmobile.com
+  - www4-static.gog-statics.com
   - xbox
   - xbox.co
   - xbox.com
@@ -930,6 +939,7 @@ domain_set:
   - blzdist-wow.necdn.leihuo.netease.com
   - c.ppy.sh
   - client.hikarifield.co.jp
+  - cloudsync-prod.s3.amazonaws.com
   - d1unuk07s6td74.cloudfront.net
   - d348twzf7a8p5.cloudfront.net
   - datarouter.apps.netherrealm.com

@@ -287,6 +287,7 @@ HOST-SUFFIX,gog-statics.com
 HOST-SUFFIX,gog.com
 HOST-SUFFIX,gog.qtlglb.com
 HOST-SUFFIX,gogalaxy.com
+HOST-SUFFIX,gogalaxy.gog-statics.com
 HOST-SUFFIX,golink.com
 HOST-SUFFIX,golinkapi.com
 HOST-SUFFIX,golinkcn.com
@@ -410,6 +411,7 @@ HOST-SUFFIX,masseffectarchives.com
 HOST-SUFFIX,masteroforion.com
 HOST-SUFFIX,maxis.com
 HOST-SUFFIX,media-rockstargames-com.akamaized.net
+HOST-SUFFIX,menu-static.gog-statics.com
 HOST-SUFFIX,miitomo.com
 HOST-SUFFIX,miitomo.com.cn
 HOST-SUFFIX,miiverse.com
@@ -581,6 +583,7 @@ HOST-SUFFIX,popcap.com
 HOST-SUFFIX,prd-priconne-redive.akamaized.net
 HOST-SUFFIX,priconne-redive.jp
 HOST-SUFFIX,prismlauncher.org
+HOST-SUFFIX,productcard.gog-statics.com
 HOST-SUFFIX,projectapex.com
 HOST-SUFFIX,projectmoon.studio
 HOST-SUFFIX,protondb.com
@@ -664,6 +667,7 @@ HOST-SUFFIX,rowblox.com
 HOST-SUFFIX,rsg.ms
 HOST-SUFFIX,rsg.sc
 HOST-SUFFIX,rstatic.net
+HOST-SUFFIX,rtm.tnt-ea.com
 HOST-SUFFIX,ruinedking.com
 HOST-SUFFIX,s.team
 HOST-SUFFIX,sc2.nosdn.127.net
@@ -699,6 +703,7 @@ HOST-SUFFIX,spore.com
 HOST-SUFFIX,spyjinx.com
 HOST-SUFFIX,spyrothedragon.com
 HOST-SUFFIX,squadbusters.com
+HOST-SUFFIX,ssl-lvlt.cdn.ea.com
 HOST-SUFFIX,ssx3.com
 HOST-SUFFIX,st.dl.bscstorage.net
 HOST-SUFFIX,st.dl.eccdnx.com
@@ -714,6 +719,7 @@ HOST-SUFFIX,starwarsbattlefront2.com
 HOST-SUFFIX,starwarsfallenorder.com
 HOST-SUFFIX,starwarsjedifallenorder.com
 HOST-SUFFIX,starwarstheoldrepublic.com
+HOST-SUFFIX,static-login.gog-statics.com
 HOST-SUFFIX,steam-api.com
 HOST-SUFFIX,steam-chat.com
 HOST-SUFFIX,steam.apac.qtlglb.com
@@ -744,6 +750,7 @@ HOST-SUFFIX,steampeek.hu
 HOST-SUFFIX,steampipe-kr.akamaized.net
 HOST-SUFFIX,steampipe-partner.akamaized.net
 HOST-SUFFIX,steampipe.akamaized.net
+HOST-SUFFIX,steampipe.steamcontent.tnkjmec.com
 HOST-SUFFIX,steampowered.com
 HOST-SUFFIX,steampowered.com.8686c.com
 HOST-SUFFIX,steampp.net
@@ -821,6 +828,7 @@ HOST-SUFFIX,unrealtournament.com
 HOST-SUFFIX,uo.com
 HOST-SUFFIX,uoherald.com
 HOST-SUFFIX,uplay.com
+HOST-SUFFIX,uplaypc-s-ubisoft.cdn.ubi.com
 HOST-SUFFIX,uu.163.com
 HOST-SUFFIX,valve.net
 HOST-SUFFIX,valvesoftware.com
@@ -866,6 +874,7 @@ HOST-SUFFIX,wowchina.com
 HOST-SUFFIX,wowsblitz.com
 HOST-SUFFIX,wplace.live
 HOST-SUFFIX,wtmobile.com
+HOST-SUFFIX,www4-static.gog-statics.com
 HOST-SUFFIX,xbox
 HOST-SUFFIX,xbox.co
 HOST-SUFFIX,xbox.com
@@ -927,6 +936,7 @@ HOST,blzdist-phx.necdn.leihuo.netease.com
 HOST,blzdist-wow.necdn.leihuo.netease.com
 HOST,c.ppy.sh
 HOST,client.hikarifield.co.jp
+HOST,cloudsync-prod.s3.amazonaws.com
 HOST,d1unuk07s6td74.cloudfront.net
 HOST,d348twzf7a8p5.cloudfront.net
 HOST,datarouter.apps.netherrealm.com
