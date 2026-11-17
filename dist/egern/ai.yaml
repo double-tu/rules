@@ -27,6 +27,7 @@ domain_suffix_set:
   - anythingllm.com
   - api.microsoftapp.net
   - api.statsig.com
+  - apis.google.com
   - apps.mzstatic.com
   - arena.ai
   - artificialanalysis.ai
@@ -374,6 +375,7 @@ domain_set:
   - jules.google.com
   - llama.developer.meta.com
   - location.microsoft.com
+  - makersuite.google.com
   - notebooklm-pa.googleapis.com
   - notebooklm.googleapis.com
   - o1158394.ingest.us.sentry.io
@@ -410,7 +412,10 @@ domain_keyword_set:
   - anthropic
   - chatgpt-async-webps-prod
   - claude
+  - colab
   - datadog
+  - developerprofiles
+  - generativelanguage
   - labs.google
   - notebooklm.google
   - openai

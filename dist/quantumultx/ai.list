@@ -26,6 +26,7 @@ HOST-SUFFIX,antspace.dev
 HOST-SUFFIX,anythingllm.com
 HOST-SUFFIX,api.microsoftapp.net
 HOST-SUFFIX,api.statsig.com
+HOST-SUFFIX,apis.google.com
 HOST-SUFFIX,apps.mzstatic.com
 HOST-SUFFIX,arena.ai
 HOST-SUFFIX,artificialanalysis.ai
@@ -371,6 +372,7 @@ HOST,inference.codeium.com
 HOST,jules.google.com
 HOST,llama.developer.meta.com
 HOST,location.microsoft.com
+HOST,makersuite.google.com
 HOST,notebooklm-pa.googleapis.com
 HOST,notebooklm.googleapis.com
 HOST,o1158394.ingest.us.sentry.io
@@ -405,7 +407,10 @@ HOST-KEYWORD,alkalimakersuite-pa.clients6.google.com
 HOST-KEYWORD,anthropic
 HOST-KEYWORD,chatgpt-async-webps-prod
 HOST-KEYWORD,claude
+HOST-KEYWORD,colab
 HOST-KEYWORD,datadog
+HOST-KEYWORD,developerprofiles
+HOST-KEYWORD,generativelanguage
 HOST-KEYWORD,labs.google
 HOST-KEYWORD,notebooklm.google
 HOST-KEYWORD,openai

@@ -1,5 +1,5 @@
 # AI 服务（多源合并：VPSDance / Repcz / QuixoticHeart / blackmatrix7）
-# auto: 6/7 上游成功，去重后如下
+# auto: 7/7 上游成功，去重后如下
 # 由 scripts/collect.py 生成，勿手改
 
 DOMAIN-SUFFIX,abtestvm-sg.bytedance.com
@@ -27,6 +27,7 @@ DOMAIN-SUFFIX,antspace.dev
 DOMAIN-SUFFIX,anythingllm.com
 DOMAIN-SUFFIX,api.microsoftapp.net
 DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,apps.mzstatic.com
 DOMAIN-SUFFIX,arena.ai
 DOMAIN-SUFFIX,artificialanalysis.ai
@@ -372,6 +373,7 @@ DOMAIN,inference.codeium.com
 DOMAIN,jules.google.com
 DOMAIN,llama.developer.meta.com
 DOMAIN,location.microsoft.com
+DOMAIN,makersuite.google.com
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
 DOMAIN,o1158394.ingest.us.sentry.io
@@ -406,7 +408,10 @@ DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,chatgpt-async-webps-prod
 DOMAIN-KEYWORD,claude
+DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,datadog
+DOMAIN-KEYWORD,developerprofiles
+DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,labs.google
 DOMAIN-KEYWORD,notebooklm.google
 DOMAIN-KEYWORD,openai
