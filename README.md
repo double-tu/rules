@@ -31,8 +31,15 @@ dist/{surge,quantumultx,clash,egern}/*.list|.yaml
 它们不会劫持大流量（`*.<label>` 才匹配），但属于噪音：`build.py` 会统计并写入
 `data/warnings.json`，`STATUS.md` 可见。只有 `DOMAIN-SUFFIX,com/net/org` 这种顶级域会直接判失败。
 
-> `cn-direct` 已停用：三源合并后 12.5 万条、产物 12MB（占 dist 2/3），每天变更会把仓库撑大。
-> 国内直连建议直接引用上游（ChinaMax / Loyalsoldier direct / Repcz Direct）。
+### 重类目与更新节奏
+
+| 类目 | 条目 | 说明 |
+|---|---:|---|
+| `cn-direct` | 110,243 | 只保留 **Loyalsoldier direct 单一权威源**。ChinaMax 与它重合 **97.6%**（110,478 vs 110,195，并集只多 2,317 条），两份一起合并等于用两倍体积换 2% 覆盖 |
+| `proxy-global` | 32,470 | Loyalsoldier proxy + Repcz Proxy 合并（单份最大 27,358，合并 +5,112 条，+19%） |
+
+这两个类目标了 `heavy: true`：**日更 workflow 跳过它们，由 `build-heavy.yml` 每周日 08:00 单独重建**。
+理由：它们占全部产物体积的 80%+，每天提交会让仓库以 MB 级速度膨胀，而域名清单周更完全够用。
 
 - **策略不写进规则文件**：统一在客户端引用处指定。这样同一份文件可以被任意策略组复用。
 - 去重按 `类型,值` 做，输出排序固定 → git diff 可读。
@@ -47,6 +54,8 @@ dist/{surge,quantumultx,clash,egern}/*.list|.yaml
 | Surge / **Loon** / Shadowrocket | `https://raw.githubusercontent.com/<你>/rules/main/dist/surge/<名字>.list` |
 | Quantumult X | `https://raw.githubusercontent.com/<你>/rules/main/dist/quantumultx/<名字>.list` |
 | Clash / Mihomo / Stash | `https://raw.githubusercontent.com/<你>/rules/main/dist/clash/<名字>.yaml` |
+| **Loon** | `https://raw.githubusercontent.com/<你>/rules/main/dist/loon/<名字>.list`（与 surge 语法相同，单独目录便于区分） |
+| **sing-box** | `https://raw.githubusercontent.com/<你>/rules/main/dist/sing-box/<名字>.json`（rule-set source 格式，`{"version":1,"rules":[...]}`；`type: remote, format: source`） |
 | **Egern** | `https://raw.githubusercontent.com/<你>/rules/main/dist/egern/<名字>.yaml`，或直接用上面 Surge 的 `.list`（Egern 支持 Surge 规则集） |
 
 国内 raw 不稳时把 `https://raw.githubusercontent.com/<你>/rules/main/` 换成

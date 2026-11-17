@@ -552,7 +552,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 315089,
-      "ms": 191,
+      "ms": 588,
       "format": "egern",
       "parsed": 17446
     },
@@ -561,7 +561,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 783806,
-      "ms": 183,
+      "ms": 672,
       "format": "surge",
       "parsed": 27359
     }
@@ -613,6 +613,17 @@
       "ms": 76,
       "format": "surge",
       "parsed": 37
+    }
+  ],
+  "cn-direct": [
+    {
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 2936436,
+      "ms": 2001,
+      "format": "surge",
+      "parsed": 110243
     }
   ]
 }

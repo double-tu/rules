@@ -5,6 +5,26 @@
       "apple"
     ]
   },
+  "cn-direct": {
+    "count": 50,
+    "sample": [
+      "alibaba",
+      "alipay",
+      "anquan",
+      "baidu",
+      "citic",
+      "cn",
+      "icbc",
+      "shouji",
+      "sina",
+      "sohu",
+      "taobao",
+      "tmall",
+      "unicom",
+      "wang",
+      "weibo"
+    ]
+  },
   "game": {
     "count": 2,
     "sample": [

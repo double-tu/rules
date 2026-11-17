@@ -46,10 +46,10 @@ jobs:
           restore-keys: fetch-
 
       - name: 采集上游（并发 + 镜像回退 + 缓存）
-        run: python scripts/collect.py
+        run: python scripts/collect.py --only light
 
       - name: 生成产物
-        run: python scripts/build.py
+        run: python scripts/build.py --only light
 
       - name: Guard（防止规则静默缩水）
         run: python scripts/guard.py --threshold 30

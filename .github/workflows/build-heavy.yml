@@ -1,0 +1,56 @@
+name: build-heavy
+
+# 重类目（国内直连 11 万条 / 国际兜底 3 万条）单独周更，避免日更把仓库撑大
+on:
+  schedule:
+    - cron: "0 0 * * 0"     # 每周日 08:00 (Asia/Shanghai)
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "upstreams.yml"
+      - "sources/*.txt"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-heavy-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install pyyaml
+
+      - name: 恢复拉取缓存
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: fetch-heavy-${{ hashFiles('upstreams.yml') }}
+          restore-keys: fetch-
+
+      - run: python scripts/collect.py --only heavy
+      - run: python scripts/build.py --only heavy
+      - run: python scripts/guard.py --threshold 30
+      - run: python scripts/status.py
+      - run: python scripts/check.py
+
+      - name: 提交
+        if: github.event_name != 'pull_request'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add dist sources/auto data STATUS.md
+          if git diff --cached --quiet; then echo "无变更"; exit 0; fi
+          git commit -m "chore(heavy): 周更重类目 ($(date -u +%Y-%m-%dT%H:%MZ))"
+          git push

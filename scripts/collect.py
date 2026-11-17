@@ -160,6 +160,10 @@ def collect_one(task):
 
 
 def main():
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--only", choices=["all", "light", "heavy"], default="all")
+    args = ap.parse_args()
     if not CFG.exists():
         sys.exit("没有 upstreams.yml")
     try:
@@ -167,6 +171,10 @@ def main():
     except ImportError:
         sys.exit("需要 PyYAML（Action 里 pip install pyyaml）")
     cfgs = yaml.safe_load(CFG.read_text(encoding="utf-8")) or {}
+    if args.only == "light":
+        cfgs = {n: c for n, c in cfgs.items() if not (c or {}).get("heavy")}
+    elif args.only == "heavy":
+        cfgs = {n: c for n, c in cfgs.items() if (c or {}).get("heavy")}
 
     tasks = [(name, cfg, src) for name, cfg in cfgs.items() for src in cfg.get("sources", [])]
     print(f"并发拉取 {len(tasks)} 个上游（8 线程，raw 失败自动走 jsdelivr）...")
@@ -205,7 +213,14 @@ def main():
         print(f"  {flag} {name:<14} {total:>7} 条  (ok {len(ok)} / cache {len(stale)} / fail {len(bad)})")
 
     REPORT.parent.mkdir(parents=True, exist_ok=True)
-    REPORT.write_text(json.dumps(report, ensure_ascii=False, indent=2), encoding="utf-8")
+    merged = {}
+    if REPORT.exists():
+        try:
+            merged = json.loads(REPORT.read_text(encoding="utf-8"))
+        except Exception:  # noqa: BLE001
+            merged = {}
+    merged.update(report)
+    REPORT.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
 
 
 if __name__ == "__main__":

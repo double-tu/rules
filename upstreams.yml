@@ -130,17 +130,14 @@ bilibili:
     - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list
     - url: https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/bilibili.yaml
 
-# cn-direct 已停用：三源合并后 12.5 万条、产物 12MB（占 dist 2/3），且每天变更会把仓库撑大。
-# 需要国内直连直接用上游即可（ChinaMax / Loyalsoldier direct / Repcz Direct），或本地临时启用本段。
-#cn-direct:
-#  title: 国内直连
-#  sources:
-#    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_All.list
-#    - url: https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
-#    - url: https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Direct.yaml
-
+cn-direct:
+  title: 国内直连（Loyalsoldier direct，单一权威源）
+  heavy: true          # 11 万条，产物大，周更
+  sources:
+    - url: https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt
 proxy-global:
-  title: 国际服务兜底（Repcz Proxy / Loyalsoldier proxy）
+  title: 国际服务兜底（Loyalsoldier proxy / Repcz Proxy）
+  heavy: true          # 3 万条，周更
   sources:
     - url: https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Proxy.yaml
     - url: https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt
