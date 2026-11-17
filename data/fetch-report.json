@@ -552,7 +552,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 315089,
-      "ms": 588,
+      "ms": 109,
       "format": "egern",
       "parsed": 17446
     },
@@ -561,7 +561,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 783806,
-      "ms": 672,
+      "ms": 128,
       "format": "surge",
       "parsed": 27359
     }
@@ -621,7 +621,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2936436,
-      "ms": 2001,
+      "ms": 183,
       "format": "surge",
       "parsed": 110243
     }
