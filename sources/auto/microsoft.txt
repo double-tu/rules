@@ -1,6 +1,6 @@
 # 微软服务
-# auto: 4/4 上游成功，去重后如下
-# 由 scripts/collect.py 生成，勿手改
+# auto: 4 成功 / 0 走缓存 / 0 失败，去重后如下
+# 由 scripts/collect.py 生成，勿手改（改 upstreams.yml）
 
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,1drv.ms

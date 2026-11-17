@@ -1,0 +1,313 @@
+{
+  "generated_at": "2026-11-17T06:52:04Z",
+  "categories": {
+    "adblock": {
+      "entries": 7877,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 5903,
+        "DOMAIN": 1179,
+        "DOMAIN-KEYWORD": 284,
+        "IP-CIDR": 508,
+        "IP-CIDR6": 3
+      },
+      "title": "广告拦截（bm7 Advertising / Repcz Reject / AWAvenue）",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "ai": {
+      "entries": 426,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 299,
+        "DOMAIN": 103,
+        "DOMAIN-KEYWORD": 16,
+        "IP-CIDR": 6,
+        "IP-CIDR6": 2
+      },
+      "title": "AI 服务（VPSDance / Repcz / QuixoticHeart / blackmatrix7）",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "apple": {
+      "entries": 1865,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 1557,
+        "DOMAIN": 273,
+        "DOMAIN-KEYWORD": 8,
+        "IP-CIDR": 20,
+        "IP-CIDR6": 7
+      },
+      "title": "苹果服务",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "bilibili": {
+      "entries": 136,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 67,
+        "DOMAIN": 53,
+        "IP-CIDR": 16
+      },
+      "title": "哔哩哔哩",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "disney": {
+      "entries": 248,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 242,
+        "DOMAIN": 6
+      },
+      "title": "Disney+",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "game": {
+      "entries": 1124,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 923,
+        "DOMAIN": 81,
+        "DOMAIN-KEYWORD": 4,
+        "IP-CIDR": 116
+      },
+      "title": "游戏平台",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "github": {
+      "entries": 77,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 48,
+        "DOMAIN": 28,
+        "DOMAIN-KEYWORD": 1
+      },
+      "title": "GitHub",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "google": {
+      "entries": 8904,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 900,
+        "DOMAIN": 15,
+        "DOMAIN-KEYWORD": 5,
+        "IP-CIDR": 3010,
+        "IP-CIDR6": 4974
+      },
+      "title": "谷歌服务",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "hbo": {
+      "entries": 92,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 92
+      },
+      "title": "HBO",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "lan": {
+      "entries": 49,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 21,
+        "DOMAIN": 4,
+        "IP-CIDR": 17,
+        "IP-CIDR6": 7
+      },
+      "title": "局域网",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "microsoft": {
+      "entries": 794,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 782,
+        "DOMAIN": 8,
+        "DOMAIN-KEYWORD": 4
+      },
+      "title": "微软服务",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "netflix": {
+      "entries": 2682,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 30,
+        "DOMAIN": 3,
+        "DOMAIN-KEYWORD": 4,
+        "IP-CIDR": 2442,
+        "IP-CIDR6": 203
+      },
+      "title": "Netflix",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "primevideo": {
+      "entries": 31,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 16,
+        "DOMAIN": 14,
+        "DOMAIN-KEYWORD": 1
+      },
+      "title": "Prime Video",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "proxy-global": {
+      "entries": 32470,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 31168,
+        "DOMAIN": 802,
+        "DOMAIN-KEYWORD": 13,
+        "IP-CIDR": 391,
+        "IP-CIDR6": 96
+      },
+      "title": "国际服务兜底（Repcz Proxy / Loyalsoldier proxy）",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "social": {
+      "entries": 851,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 773,
+        "DOMAIN": 6,
+        "DOMAIN-KEYWORD": 5,
+        "IP-CIDR": 63,
+        "IP-CIDR6": 4
+      },
+      "title": "国际社交（Instagram / Discord / 其他）",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "spotify": {
+      "entries": 36,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 24,
+        "DOMAIN": 6,
+        "DOMAIN-KEYWORD": 2,
+        "IP-CIDR": 4
+      },
+      "title": "Spotify",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "telegram": {
+      "entries": 58,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 26,
+        "DOMAIN": 4,
+        "DOMAIN-KEYWORD": 2,
+        "IP-CIDR": 17,
+        "IP-CIDR6": 9
+      },
+      "title": "Telegram",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "tiktok": {
+      "entries": 165,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 131,
+        "DOMAIN": 25,
+        "DOMAIN-KEYWORD": 9
+      },
+      "title": "TikTok",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "tu-adblock": {
+      "entries": 1,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 1
+      },
+      "title": "图的广告拦截（原 quanx/Tu_AdBlock.list）",
+      "origin": "manual",
+      "has_manual": true,
+      "has_auto": false
+    },
+    "tu-direct": {
+      "entries": 8,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 8
+      },
+      "title": "图的国内直连（原 quanx/Tu_Direct.list）",
+      "origin": "manual",
+      "has_manual": true,
+      "has_auto": false
+    },
+    "tu-proxy": {
+      "entries": 12,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 12
+      },
+      "title": "图的起飞出国（原 quanx/Tu_Proxy.list）",
+      "origin": "manual",
+      "has_manual": true,
+      "has_auto": false
+    },
+    "twitter": {
+      "entries": 41,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 26,
+        "DOMAIN-KEYWORD": 1,
+        "IP-CIDR": 14
+      },
+      "title": "Twitter / X",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    },
+    "us-finance": {
+      "entries": 73,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 73
+      },
+      "title": "美国金融：银行 / 发卡行 / 券商 / 支付 / 风控指纹 / 征信（2026-11 DoH 校验）",
+      "origin": "manual",
+      "has_manual": true,
+      "has_auto": false
+    },
+    "us-finance-idv": {
+      "entries": 8,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 8
+      },
+      "title": "美国金融：账户聚合与身份核验（Plaid/Yodlee/Finicity/id.me 等）",
+      "origin": "manual",
+      "has_manual": true,
+      "has_auto": false
+    },
+    "youtube": {
+      "entries": 189,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 179,
+        "DOMAIN": 3,
+        "DOMAIN-KEYWORD": 1,
+        "IP-CIDR": 4,
+        "IP-CIDR6": 2
+      },
+      "title": "YouTube",
+      "origin": "auto",
+      "has_manual": false,
+      "has_auto": true
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Disney+
-# auto: 3/3 上游成功，去重后如下
-# 由 scripts/collect.py 生成，勿手改
+# auto: 3 成功 / 0 走缓存 / 0 失败，去重后如下
+# 由 scripts/collect.py 生成，勿手改（改 upstreams.yml）
 
 DOMAIN-SUFFIX,112263.com
 DOMAIN-SUFFIX,20thcenturystudios.com

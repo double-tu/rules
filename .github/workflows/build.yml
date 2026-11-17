@@ -3,18 +3,34 @@ name: build
 on:
   push:
     branches: [main]
+    paths:
+      - "sources/**"
+      - "upstreams.yml"
+      - "scripts/**"
+      - ".github/workflows/build.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "upstreams.yml"
   schedule:
-    - cron: "30 23 * * *"   # 每天 07:30 (Asia/Shanghai) 拉上游并重建
+    - cron: "30 23 * * *"   # 每天 07:30 (Asia/Shanghai)
   workflow_dispatch:
 
 permissions:
   contents: write
 
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2          # guard 需要上一个提交
 
       - uses: actions/setup-python@v5
         with:
@@ -22,20 +38,38 @@ jobs:
 
       - run: pip install pyyaml
 
-      - name: 采集上游（多元合并 + 去重）
+      - name: 恢复拉取缓存（失败时回退上次内容）
+        uses: actions/cache@v4
+        with:
+          path: data/cache
+          key: fetch-${{ hashFiles('upstreams.yml') }}
+          restore-keys: fetch-
+
+      - name: 采集上游（并发 + 镜像回退 + 缓存）
         run: python scripts/collect.py
 
-      - name: 生成各客户端产物
+      - name: 生成产物
         run: python scripts/build.py
 
-      - name: 提交变更
+      - name: Guard（防止规则静默缩水）
+        run: python scripts/guard.py --threshold 30
+
+      - name: 状态表
+        run: python scripts/status.py
+
+      - name: 产物校验
+        run: python scripts/check.py
+
+      - name: 提交
+        if: github.event_name != 'pull_request'
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add sources/auto dist
+          git add dist sources/auto data STATUS.md
           if git diff --cached --quiet; then
             echo "无变更"
-          else
-            git commit -m "chore: 自动刷新规则 ($(date -u +%Y-%m-%dT%H:%MZ))"
-            git push
+            exit 0
           fi
+          CHANGED=$(git diff --cached --numstat -- dist | awk '{a+=$1; d+=$2} END {print a"+ "d"-"}')
+          git commit -m "chore: 自动刷新规则 (${CHANGED:-no code diff}, $(date -u +%Y-%m-%dT%H:%MZ))"
+          git push

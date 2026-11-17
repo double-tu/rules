@@ -1,0 +1,647 @@
+{
+  "ai": [
+    {
+      "url": "https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/egern/global.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 7983,
+      "ms": 926,
+      "format": "egern",
+      "parsed": 322
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/AI.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1426,
+      "ms": 1181,
+      "format": "egern",
+      "parsed": 58
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/ai.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 5256,
+      "ms": 2572,
+      "format": "egern",
+      "parsed": 256
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1353,
+      "ms": 1118,
+      "format": "surge",
+      "parsed": 34
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 244,
+      "ms": 1028,
+      "format": "surge",
+      "parsed": 3
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 605,
+      "ms": 2309,
+      "format": "surge",
+      "parsed": 13
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Copilot/Copilot.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1822,
+      "ms": 934,
+      "format": "surge",
+      "parsed": 49
+    }
+  ],
+  "google": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Google/Google.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 19985,
+      "ms": 896,
+      "format": "surge",
+      "parsed": 695
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 23684,
+      "ms": 680,
+      "format": "surge",
+      "parsed": 707
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Google.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 471,
+      "ms": 775,
+      "format": "egern",
+      "parsed": 25
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/google.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 197692,
+      "ms": 942,
+      "format": "egern",
+      "parsed": 8863
+    }
+  ],
+  "youtube": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/YouTube/YouTube.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 5451,
+      "ms": 698,
+      "format": "surge",
+      "parsed": 183
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/YouTube.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 335,
+      "ms": 722,
+      "format": "egern",
+      "parsed": 14
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/youtube.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 2930,
+      "ms": 773,
+      "format": "egern",
+      "parsed": 184
+    }
+  ],
+  "github": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GitHub/GitHub.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1117,
+      "ms": 757,
+      "format": "surge",
+      "parsed": 31
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Github.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 170,
+      "ms": 686,
+      "format": "egern",
+      "parsed": 6
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/gits.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 2246,
+      "ms": 32419,
+      "format": "egern",
+      "parsed": 77
+    }
+  ],
+  "microsoft": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Microsoft/Microsoft.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 20605,
+      "ms": 465,
+      "format": "surge",
+      "parsed": 668
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 735,
+      "ms": 369,
+      "format": "surge",
+      "parsed": 16
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Microsoft.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 13789,
+      "ms": 699,
+      "format": "egern",
+      "parsed": 669
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/microsoft.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 14128,
+      "ms": 687,
+      "format": "egern",
+      "parsed": 767
+    }
+  ],
+  "apple": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Apple/Apple.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1805,
+      "ms": 491,
+      "format": "surge",
+      "parsed": 20
+    },
+    {
+      "url": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 66708,
+      "ms": 698,
+      "format": "surge",
+      "parsed": 1834
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 894,
+      "ms": 413,
+      "format": "surge",
+      "parsed": 29
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Apple.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1469,
+      "ms": 661,
+      "format": "egern",
+      "parsed": 44
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/apple.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 31579,
+      "ms": 779,
+      "format": "egern",
+      "parsed": 1585
+    }
+  ],
+  "netflix": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Netflix/Netflix.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 40424,
+      "ms": 521,
+      "format": "surge",
+      "parsed": 1156
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Netflix.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 10501,
+      "ms": 698,
+      "format": "egern",
+      "parsed": 497
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/netflix.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 20981,
+      "ms": 32329,
+      "format": "egern",
+      "parsed": 1157
+    }
+  ],
+  "disney": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Disney/Disney.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 5674,
+      "ms": 485,
+      "format": "surge",
+      "parsed": 172
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Disney.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 5253,
+      "ms": 705,
+      "format": "egern",
+      "parsed": 248
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/disney.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 4380,
+      "ms": 700,
+      "format": "egern",
+      "parsed": 234
+    }
+  ],
+  "hbo": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/HBO/HBO.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1784,
+      "ms": 465,
+      "format": "surge",
+      "parsed": 47
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/HBO.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1938,
+      "ms": 757,
+      "format": "egern",
+      "parsed": 92
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/hbo.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1560,
+      "ms": 723,
+      "format": "egern",
+      "parsed": 89
+    }
+  ],
+  "primevideo": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PrimeVideo/PrimeVideo.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 749,
+      "ms": 640,
+      "format": "surge",
+      "parsed": 16
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/PrimeVideo.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 691,
+      "ms": 714,
+      "format": "egern",
+      "parsed": 24
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/primevideo.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 768,
+      "ms": 644,
+      "format": "egern",
+      "parsed": 31
+    }
+  ],
+  "spotify": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Spotify/Spotify.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1246,
+      "ms": 643,
+      "format": "surge",
+      "parsed": 29
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Spotify.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 542,
+      "ms": 647,
+      "format": "egern",
+      "parsed": 19
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/spotify.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 781,
+      "ms": 701,
+      "format": "egern",
+      "parsed": 32
+    }
+  ],
+  "tiktok": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TikTok/TikTok.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1242,
+      "ms": 666,
+      "format": "surge",
+      "parsed": 34
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/TikTok.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1768,
+      "ms": 693,
+      "format": "egern",
+      "parsed": 81
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/tiktok.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 3000,
+      "ms": 678,
+      "format": "egern",
+      "parsed": 125
+    }
+  ],
+  "telegram": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Telegram/Telegram.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1680,
+      "ms": 439,
+      "format": "surge",
+      "parsed": 35
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Telegram.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1011,
+      "ms": 634,
+      "format": "egern",
+      "parsed": 46
+    }
+  ],
+  "twitter": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Twitter/Twitter.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1116,
+      "ms": 684,
+      "format": "surge",
+      "parsed": 33
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Twitter.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 669,
+      "ms": 32489,
+      "format": "egern",
+      "parsed": 34
+    }
+  ],
+  "social": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Instagram/Instagram.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 287,
+      "ms": 659,
+      "format": "surge",
+      "parsed": 4
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Discord/Discord.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1076,
+      "ms": 760,
+      "format": "surge",
+      "parsed": 29
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/socialmedia.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 14873,
+      "ms": 742,
+      "format": "egern",
+      "parsed": 851
+    }
+  ],
+  "game": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Game/Game.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 19725,
+      "ms": 674,
+      "format": "surge",
+      "parsed": 612
+    },
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Steam/Steam.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 2571,
+      "ms": 415,
+      "format": "surge",
+      "parsed": 69
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Game.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 11928,
+      "ms": 714,
+      "format": "egern",
+      "parsed": 547
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/games.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 20390,
+      "ms": 673,
+      "format": "egern",
+      "parsed": 1051
+    }
+  ],
+  "bilibili": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/BiliBili/BiliBili.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 4742,
+      "ms": 433,
+      "format": "surge",
+      "parsed": 123
+    },
+    {
+      "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/bilibili.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 3228,
+      "ms": 906,
+      "format": "egern",
+      "parsed": 128
+    }
+  ],
+  "cn-direct": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/ChinaMax/ChinaMax_All.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 3262452,
+      "ms": 1882,
+      "format": "surge",
+      "parsed": 123047
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/direct.txt",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 2936436,
+      "ms": 1383,
+      "format": "surge",
+      "parsed": 110243
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Direct.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 823,
+      "ms": 663,
+      "format": "egern",
+      "parsed": 34
+    }
+  ],
+  "proxy-global": [
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Proxy.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 315089,
+      "ms": 32809,
+      "format": "egern",
+      "parsed": 17446
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 783806,
+      "ms": 1290,
+      "format": "surge",
+      "parsed": 27359
+    }
+  ],
+  "adblock": [
+    {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 26895,
+      "ms": 32559,
+      "format": "surge",
+      "parsed": 767
+    },
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Reject.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 109741,
+      "ms": 856,
+      "format": "egern",
+      "parsed": 6202
+    },
+    {
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/main/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 28127,
+      "ms": 736,
+      "format": "surge",
+      "parsed": 998
+    }
+  ],
+  "lan": [
+    {
+      "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Lan.yaml",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 273,
+      "ms": 684,
+      "format": "egern",
+      "parsed": 14
+    },
+    {
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/LocalAreaNetwork.list",
+      "status": "ok",
+      "via": "direct",
+      "bytes": 1143,
+      "ms": 450,
+      "format": "surge",
+      "parsed": 37
+    }
+  ]
+}

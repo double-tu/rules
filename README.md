@@ -6,12 +6,33 @@ GitHub Action 每天 07:30（北京时间）拉取上游规则、合并去重、
 ## 设计
 
 ```
-sources/*.txt        手写规则（Surge 语法，单一源）  ← 只改这里
-sources/auto/*.txt   Action 从上游采集合并的规则     ← 只改 upstreams.yml
-scripts/collect.py   多元采集：拉上游 → 归一化 → 去重
-scripts/build.py     单一源 → 各客户端产物（dist/）
+sources/<名字>.txt        手写白名单（长期有效，上游挂了也不丢）
+sources/auto/<名字>.txt   每天从上游聚合（改 upstreams.yml）
+scripts/collect.py        并发拉取 → 格式识别 → 归一化 → 去重 → 缓存/镜像回退
+scripts/build.py          手写 + 采集 合并去重 → 4 种客户端产物 + data/counts.json
+scripts/guard.py          和上一个提交比，单类目掉 >30% 直接失败
+scripts/status.py         生成 STATUS.md（每类目条目数 + 每上游拉取状态）
+scripts/check.py          产物校验（非空/无重复/分组有序/三端一致）
 dist/{surge,quantumultx,clash,egern}/*.list|.yaml
 ```
+
+### 四道保险（参考 VPSDance/ai-proxy-rules）
+
+| 机制 | 解决的问题 |
+|---|---|
+| **缓存 + 镜像** | 上游超时/404 时自动改用 jsdelivr 重试；仍失败则回退 `data/cache/` 上次内容（CI 里用 `actions/cache` 持久化，不污染仓库） |
+| **Guard** | 某个类目规则数比上次提交掉超过 30% 就判失败 —— 对应「Repcz 删文件导致 Gemini 静默失效」这类事故 |
+| **状态表** | `STATUS.md` 自动列出每个类目条目数与每个上游的成功/缓存/失败状态 |
+| **产物校验** | 四种格式条目数必须一致、无重复、分组内有序、非空 |
+
+### 数据质量
+
+上游常混入单标签条目（`DOMAIN-SUFFIX,hsbc`、`DOMAIN-SUFFIX,youtube` 这种）。
+它们不会劫持大流量（`*.<label>` 才匹配），但属于噪音：`build.py` 会统计并写入
+`data/warnings.json`，`STATUS.md` 可见。只有 `DOMAIN-SUFFIX,com/net/org` 这种顶级域会直接判失败。
+
+> `cn-direct` 已停用：三源合并后 12.5 万条、产物 12MB（占 dist 2/3），每天变更会把仓库撑大。
+> 国内直连建议直接引用上游（ChinaMax / Loyalsoldier direct / Repcz Direct）。
 
 - **策略不写进规则文件**：统一在客户端引用处指定。这样同一份文件可以被任意策略组复用。
 - 去重按 `类型,值` 做，输出排序固定 → git diff 可读。
