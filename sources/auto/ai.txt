@@ -1,4 +1,4 @@
-# AI 服务（多源合并：VPSDance / Repcz / QuixoticHeart / blackmatrix7）
+# AI 服务（VPSDance / Repcz / QuixoticHeart / blackmatrix7）
 # auto: 7/7 上游成功，去重后如下
 # 由 scripts/collect.py 生成，勿手改
 

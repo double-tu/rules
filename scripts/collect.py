@@ -73,12 +73,24 @@ def norm_egern(text):
 PARSERS = {"surge": norm_surge, "clash": norm_clash, "egern": norm_egern}
 
 
+def detect(text):
+    """自动识别上游格式：egern 原生 YAML / Clash rule-provider / Surge(QX) 文本"""
+    if re.search(r"(?m)^payload:\s*$", text):
+        return "clash"
+    if re.search(r"(?m)^[a-z0-9_]+_set:\s*$", text) or re.search(r"(?m)^no_resolve:", text):
+        return "egern"
+    return "surge"
+
+
 def collect(name, cfg):
     rules, ok = {}, []
     for src in cfg.get("sources", []):
-        url, fmt = src["url"], src.get("format", "surge")
+        url, fmt = src["url"], src.get("format", "auto")
         try:
-            items = PARSERS[fmt](fetch(url))
+            text = fetch(url, timeout=60)
+            if fmt == "auto":
+                fmt = detect(text)
+            items = PARSERS[fmt](text)
             for kind, val, opts in items:
                 item = val if kind.startswith("IP-") else val.lower()
                 if kind.startswith("IP-") and "no-resolve" in opts:
