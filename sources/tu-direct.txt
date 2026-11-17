@@ -1,0 +1,11 @@
+# 图的国内直连（原 quanx/Tu_Direct.list）
+# 单一源：Surge 语法（DOMAIN-SUFFIX,x / DOMAIN,x），由 scripts/build.py 生成各端产物
+
+DOMAIN-SUFFIX,tsinghua.edu.cn
+DOMAIN-SUFFIX,doubanio.com
+DOMAIN-SUFFIX,aliyun.com
+DOMAIN-SUFFIX,edu.cn
+DOMAIN-SUFFIX,translate.googleapis.com
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,gov.cn
+DOMAIN-SUFFIX,1password.com

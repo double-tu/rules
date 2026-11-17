@@ -1,0 +1,41 @@
+name: build
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "30 23 * * *"   # 每天 07:30 (Asia/Shanghai) 拉上游并重建
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install pyyaml
+
+      - name: 采集上游（多元合并 + 去重）
+        run: python scripts/collect.py
+
+      - name: 生成各客户端产物
+        run: python scripts/build.py
+
+      - name: 提交变更
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add sources/auto dist
+          if git diff --cached --quiet; then
+            echo "无变更"
+          else
+            git commit -m "chore: 自动刷新规则 ($(date -u +%Y-%m-%dT%H:%MZ))"
+            git push
+          fi

@@ -1,0 +1,4 @@
+# 图的广告拦截（原 quanx/Tu_AdBlock.list）
+# 单一源：Surge 语法（DOMAIN-SUFFIX,x / DOMAIN,x），由 scripts/build.py 生成各端产物
+
+DOMAIN-SUFFIX,access-sngapm.qcloud.com

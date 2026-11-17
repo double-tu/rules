@@ -1,0 +1,15 @@
+# 图的起飞出国（原 quanx/Tu_Proxy.list）
+# 单一源：Surge 语法（DOMAIN-SUFFIX,x / DOMAIN,x），由 scripts/build.py 生成各端产物
+
+DOMAIN-SUFFIX,facebook.com
+DOMAIN-SUFFIX,v2ex.com
+DOMAIN-SUFFIX,hk1lib.org
+DOMAIN-SUFFIX,z-lib.org
+DOMAIN-SUFFIX,sg1lib.org
+DOMAIN-SUFFIX,zlibcdn.com
+DOMAIN-SUFFIX,apps.apple.com
+DOMAIN-SUFFIX,notion.so
+DOMAIN-SUFFIX,deepl.com
+DOMAIN-SUFFIX,raindrop.io
+DOMAIN-SUFFIX,adguard.com
+DOMAIN-SUFFIX,appstorrent.ru

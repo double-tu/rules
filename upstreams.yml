@@ -1,0 +1,23 @@
+# 多元采集配置：每天由 GitHub Action 拉取 → 归一化 → 去重 → 写入 sources/auto/<name>.txt
+# format:
+#   surge  = DOMAIN-SUFFIX,x 这种纯文本（Surge/Loon/Shadowrocket 的 .list）
+#   clash  = Clash rule-provider YAML（payload: - DOMAIN-SUFFIX,x）
+#   egern  = Egern 原生 YAML（domain_suffix_set: ...）
+
+ai:
+  title: AI 服务（多源合并：VPSDance / Repcz / QuixoticHeart / blackmatrix7）
+  sources:
+    - url: https://cdn.jsdelivr.net/gh/VPSDance/ai-proxy-rules@main/rules/egern/global.yaml
+      format: egern
+    - url: https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/AI.yaml
+      format: egern
+    - url: https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/ai.yaml
+      format: egern
+    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OpenAI/OpenAI.list
+      format: surge
+    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Claude/Claude.list
+      format: surge
+    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Gemini/Gemini.list
+      format: surge
+    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Copilot/Copilot.list
+      format: surge
