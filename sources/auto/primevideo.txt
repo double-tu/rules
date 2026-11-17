@@ -33,3 +33,5 @@ DOMAIN,msh.amazon.co.uk
 DOMAIN,static.siege-amazon.com
 DOMAIN,www.amazon.com
 DOMAIN-KEYWORD,avoddashs
+USER-AGENT,instantvideo.us*
+USER-AGENT,prime%20video*

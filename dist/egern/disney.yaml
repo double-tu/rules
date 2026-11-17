@@ -255,3 +255,6 @@ domain_set:
 
 domain_regex_set:
   - ^hses[1-7]?\.akamaized\.net$
+
+user_agent_set:
+  - disney+*

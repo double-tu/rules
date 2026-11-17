@@ -800,3 +800,8 @@ domain_keyword_set:
   - microsoft
   - onedrive
   - skydrive
+
+user_agent_set:
+  - microsoft*
+  - onedrive*
+  - onedriveiosapp*

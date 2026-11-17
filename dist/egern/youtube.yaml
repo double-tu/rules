@@ -190,6 +190,15 @@ domain_set:
 domain_keyword_set:
   - youtube
 
+user_agent_set:
+  - *com.google.ios.youtubemusic*
+  - *youtube*
+  - *youtubemusic*
+  - com.google.ios.youtube*
+  - com.google.ios.youtubemusic*
+  - youtube*
+  - youtubemusic*
+
 ip_cidr_set:
   - 172.110.32.0/21
   - 216.73.80.0/20

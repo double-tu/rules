@@ -171,3 +171,6 @@ domain_keyword_set:
   - tiktokv.com.
   - ttcdn-tos.
   - ttlivecdn.com.
+
+user_agent_set:
+  - tiktok*

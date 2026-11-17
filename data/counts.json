@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-17T07:24:42Z",
+  "generated_at": "2026-11-17T07:31:39Z",
   "categories": {
     "adblock": {
       "entries": 7884,
@@ -50,12 +50,13 @@
       "origin": "auto"
     },
     "apple": {
-      "entries": 1867,
+      "entries": 1899,
       "by_kind": {
         "DOMAIN-SUFFIX": 1557,
         "DOMAIN": 273,
         "DOMAIN-KEYWORD": 8,
         "DOMAIN-WILDCARD": 15,
+        "USER-AGENT": 32,
         "IP-CIDR": 10,
         "IP-CIDR6": 4
       },
@@ -66,10 +67,11 @@
       "origin": "auto"
     },
     "bilibili": {
-      "entries": 128,
+      "entries": 132,
       "by_kind": {
         "DOMAIN-SUFFIX": 67,
         "DOMAIN": 53,
+        "USER-AGENT": 4,
         "IP-CIDR": 8
       },
       "title": "哔哩哔哩",
@@ -94,11 +96,12 @@
       "origin": "auto"
     },
     "disney": {
-      "entries": 249,
+      "entries": 250,
       "by_kind": {
         "DOMAIN-SUFFIX": 242,
         "DOMAIN": 6,
-        "DOMAIN-REGEX": 1
+        "DOMAIN-REGEX": 1,
+        "USER-AGENT": 1
       },
       "title": "Disney+",
       "heavy": false,
@@ -135,11 +138,12 @@
       "origin": "auto"
     },
     "google": {
-      "entries": 8899,
+      "entries": 8902,
       "by_kind": {
         "DOMAIN-SUFFIX": 900,
         "DOMAIN": 15,
         "DOMAIN-KEYWORD": 5,
+        "USER-AGENT": 3,
         "IP-CIDR": 3006,
         "IP-CIDR6": 4973
       },
@@ -150,9 +154,10 @@
       "origin": "auto"
     },
     "hbo": {
-      "entries": 92,
+      "entries": 94,
       "by_kind": {
-        "DOMAIN-SUFFIX": 92
+        "DOMAIN-SUFFIX": 92,
+        "USER-AGENT": 2
       },
       "title": "HBO",
       "heavy": false,
@@ -189,11 +194,12 @@
       "origin": "auto"
     },
     "microsoft": {
-      "entries": 794,
+      "entries": 797,
       "by_kind": {
         "DOMAIN-SUFFIX": 782,
         "DOMAIN": 8,
-        "DOMAIN-KEYWORD": 4
+        "DOMAIN-KEYWORD": 4,
+        "USER-AGENT": 3
       },
       "title": "微软服务",
       "heavy": false,
@@ -202,12 +208,13 @@
       "origin": "auto"
     },
     "netflix": {
-      "entries": 1567,
+      "entries": 1568,
       "by_kind": {
         "DOMAIN-SUFFIX": 30,
         "DOMAIN": 3,
         "DOMAIN-KEYWORD": 4,
         "DOMAIN-REGEX": 4,
+        "USER-AGENT": 1,
         "IP-CIDR": 1327,
         "IP-CIDR6": 199
       },
@@ -218,11 +225,12 @@
       "origin": "auto"
     },
     "primevideo": {
-      "entries": 31,
+      "entries": 33,
       "by_kind": {
         "DOMAIN-SUFFIX": 16,
         "DOMAIN": 14,
-        "DOMAIN-KEYWORD": 1
+        "DOMAIN-KEYWORD": 1,
+        "USER-AGENT": 2
       },
       "title": "Prime Video",
       "heavy": false,
@@ -261,11 +269,12 @@
       "origin": "auto"
     },
     "spotify": {
-      "entries": 34,
+      "entries": 35,
       "by_kind": {
         "DOMAIN-SUFFIX": 24,
         "DOMAIN": 6,
         "DOMAIN-KEYWORD": 2,
+        "USER-AGENT": 1,
         "IP-CIDR": 2
       },
       "title": "Spotify",
@@ -290,11 +299,12 @@
       "origin": "auto"
     },
     "tiktok": {
-      "entries": 165,
+      "entries": 166,
       "by_kind": {
         "DOMAIN-SUFFIX": 131,
         "DOMAIN": 25,
-        "DOMAIN-KEYWORD": 9
+        "DOMAIN-KEYWORD": 9,
+        "USER-AGENT": 1
       },
       "title": "TikTok",
       "heavy": false,
@@ -371,11 +381,12 @@
       "origin": "manual"
     },
     "youtube": {
-      "entries": 186,
+      "entries": 193,
       "by_kind": {
         "DOMAIN-SUFFIX": 179,
         "DOMAIN": 3,
         "DOMAIN-KEYWORD": 1,
+        "USER-AGENT": 7,
         "IP-CIDR": 2,
         "IP-CIDR6": 1
       },

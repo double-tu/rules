@@ -122,6 +122,10 @@ DOMAIN,p-bstarstatic.akamaized.net
 DOMAIN,p.bstarstatic.com
 DOMAIN,upos-bstar-mirrorakam.akamaized.net
 DOMAIN,upos-bstar1-mirrorakam.akamaized.net
+USER-AGENT,*bili*
+USER-AGENT,bili*
+USER-AGENT,bili-inter*
+USER-AGENT,bilibili*
 IP-CIDR,106.75.74.76/32
 IP-CIDR,106.75.74.76/32,no-resolve
 IP-CIDR,111.206.25.147/32

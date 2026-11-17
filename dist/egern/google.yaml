@@ -927,6 +927,11 @@ domain_keyword_set:
   - google
   - recaptcha
 
+user_agent_set:
+  - %e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*
+  - *com.google.drive*
+  - google.drive*
+
 ip_cidr_set:
   - 1.179.112.0/21
   - 102.204.125.0/24

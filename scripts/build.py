@@ -24,13 +24,14 @@ COUNTS = DATA / "counts.json"
 CFG = ROOT / "upstreams.yml"
 
 KINDS = ("DOMAIN-SUFFIX", "DOMAIN", "DOMAIN-KEYWORD",
-         "DOMAIN-REGEX", "DOMAIN-WILDCARD", "URL-REGEX", "IP-CIDR", "IP-CIDR6")
+         "DOMAIN-REGEX", "DOMAIN-WILDCARD", "URL-REGEX", "USER-AGENT", "IP-CIDR", "IP-CIDR6")
 DOM_KINDS = ("DOMAIN-SUFFIX", "DOMAIN", "DOMAIN-KEYWORD")
 QX = {"DOMAIN-SUFFIX": "HOST-SUFFIX", "DOMAIN": "HOST", "DOMAIN-KEYWORD": "HOST-KEYWORD",
       "IP-CIDR": "IP-CIDR", "IP-CIDR6": "IP6-CIDR"}
 EGERN_KEY = {"DOMAIN-SUFFIX": "domain_suffix_set", "DOMAIN": "domain_set",
              "DOMAIN-KEYWORD": "domain_keyword_set", "DOMAIN-REGEX": "domain_regex_set",
              "DOMAIN-WILDCARD": "domain_wildcard_set", "URL-REGEX": "url_regex_set",
+             "USER-AGENT": "user_agent_set",
              "IP-CIDR": "ip_cidr_set", "IP-CIDR6": "ip_cidr6_set"}
 SINGBOX_KEY = {"DOMAIN-SUFFIX": "domain_suffix", "DOMAIN": "domain",
                "DOMAIN-KEYWORD": "domain_keyword", "IP-CIDR": "ip_cidr", "IP-CIDR6": "ip_cidr"}
@@ -57,7 +58,7 @@ def parse(path, sink, bad):
         if kind.startswith("IP-"):
             v = value.strip()
             sink[kind][v] = sink[kind].get(v, False) or ("no-resolve" in opts)
-        elif kind in ("DOMAIN-REGEX", "URL-REGEX", "DOMAIN-WILDCARD"):
+        elif kind in ("DOMAIN-REGEX", "URL-REGEX", "DOMAIN-WILDCARD", "USER-AGENT"):
             sink[kind].add(value.strip())
         else:
             sink[kind].add(value.lower())
@@ -115,7 +116,8 @@ def emit(name, title, rules):
     wc_txt = [f"DOMAIN-WILDCARD,{v}" for v in sorted(rules["DOMAIN-WILDCARD"])]
     url_txt = [f"URL-REGEX,{v}" for v in sorted(rules["URL-REGEX"])]
     wc_as_re = [f"DOMAIN-REGEX,{wc2re(v)}" for v in sorted(rules["DOMAIN-WILDCARD"])]
-    all_txt = dom_txt + re_txt + wc_txt + url_txt + ip_txt
+    ua_txt = [f"USER-AGENT,{v}" for v in sorted(rules["USER-AGENT"])]
+    all_txt = dom_txt + re_txt + wc_txt + url_txt + ua_txt + ip_txt
 
     # Surge
     lines = list(head) + all_txt

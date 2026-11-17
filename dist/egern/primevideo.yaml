@@ -37,3 +37,7 @@ domain_set:
 
 domain_keyword_set:
   - avoddashs
+
+user_agent_set:
+  - instantvideo.us*
+  - prime%20video*

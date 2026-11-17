@@ -39,7 +39,8 @@ def norm_surge(text):
         k0 = parts[0].upper()
         if k0 not in ("DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "DOMAIN-REGEX",
                       "URL-REGEX", "DOMAIN-WILDCARD", "IP-CIDR", "IP-CIDR6",
-                      "HOST", "HOST-SUFFIX", "HOST-KEYWORD", "HOST-REGEX", "HOST-WILDCARD"):
+                      "HOST", "HOST-SUFFIX", "HOST-KEYWORD", "HOST-REGEX", "HOST-WILDCARD",
+                      "USER-AGENT"):
             continue
         kind = k0.replace("HOST", "DOMAIN")
         out.append((kind, parts[1], parts[2:]))
@@ -64,6 +65,7 @@ def norm_egern(text):
     mapping = {"domain_suffix_set": "DOMAIN-SUFFIX", "domain_set": "DOMAIN",
                "domain_keyword_set": "DOMAIN-KEYWORD", "domain_regex_set": "DOMAIN-REGEX",
                "url_regex_set": "URL-REGEX", "domain_wildcard_set": "DOMAIN-WILDCARD",
+               "user_agent_set": "USER-AGENT",
                "ip_cidr_set": "IP-CIDR", "ip_cidr6_set": "IP-CIDR6"}
     out, cur = [], None
     for raw in text.splitlines():
@@ -209,7 +211,7 @@ def main():
                  f"# auto: {len(ok)} 成功 / {len(stale)} 走缓存 / {len(bad)} 失败，去重后如下",
                  f"# 由 scripts/collect.py 生成，勿手改（改 upstreams.yml）", ""]
         for kind in ("DOMAIN-SUFFIX", "DOMAIN", "DOMAIN-KEYWORD", "DOMAIN-REGEX",
-                     "DOMAIN-WILDCARD", "URL-REGEX", "IP-CIDR", "IP-CIDR6"):
+                     "DOMAIN-WILDCARD", "URL-REGEX", "USER-AGENT", "IP-CIDR", "IP-CIDR6"):
             lines += [f"{kind},{v}" for v in sorted(rules.get(kind, ()))]
         (AUTO / f"{name}.txt").write_text("\n".join(lines) + "\n", encoding="utf-8")
         total = sum(len(v) for v in rules.values())

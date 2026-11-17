@@ -94,3 +94,7 @@ domain_suffix_set:
   - s3-ap-southeast-1.amazonaws.com
   - warnermediacdn.com
   - youboranqs01.com
+
+user_agent_set:
+  - hbo%20now*
+  - hbomax*

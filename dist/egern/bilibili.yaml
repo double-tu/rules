@@ -125,6 +125,12 @@ domain_set:
   - upos-bstar-mirrorakam.akamaized.net
   - upos-bstar1-mirrorakam.akamaized.net
 
+user_agent_set:
+  - *bili*
+  - bili*
+  - bili-inter*
+  - bilibili*
+
 ip_cidr_set:
   - 106.75.74.76/32
   - 111.206.25.147/32

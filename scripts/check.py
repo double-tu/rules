@@ -12,7 +12,8 @@ import sys
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
 CORE = {"DOMAIN", "DOMAIN-SUFFIX", "DOMAIN-KEYWORD", "IP-CIDR", "IP-CIDR6"}
-EXTRA = {"DOMAIN-REGEX", "DOMAIN-WILDCARD", "URL-REGEX", "HOST-REGEX", "HOST-WILDCARD", "IP6-CIDR"}
+EXTRA = {"DOMAIN-REGEX", "DOMAIN-WILDCARD", "URL-REGEX", "USER-AGENT",
+         "HOST-REGEX", "HOST-WILDCARD", "IP6-CIDR"}
 LINE = re.compile(r"^(?:-\s+)?([A-Z0-9-]+),(.+)$")
 
 
@@ -47,7 +48,7 @@ def egern_counts(path):
             cur = m.group(1)
             continue
         if raw.startswith("  - ") and cur:
-            if cur in ("domain_regex_set", "domain_wildcard_set", "url_regex_set"):
+            if cur in ("domain_regex_set", "domain_wildcard_set", "url_regex_set", "user_agent_set"):
                 extra += 1
             else:
                 core += 1

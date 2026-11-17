@@ -185,6 +185,13 @@ DOMAIN,youtubei.googleapis.com
 DOMAIN,yt3.ggpht.com
 DOMAIN,yt3.googleusercontent.com
 DOMAIN-KEYWORD,youtube
+USER-AGENT,*com.google.ios.youtubemusic*
+USER-AGENT,*youtube*
+USER-AGENT,*youtubemusic*
+USER-AGENT,com.google.ios.youtube*
+USER-AGENT,com.google.ios.youtubemusic*
+USER-AGENT,youtube*
+USER-AGENT,youtubemusic*
 IP-CIDR,172.110.32.0/21
 IP-CIDR,172.110.32.0/21,no-resolve
 IP-CIDR,216.73.80.0/20

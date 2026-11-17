@@ -93,3 +93,5 @@ DOMAIN-SUFFIX,redbyhbo.com
 DOMAIN-SUFFIX,s3-ap-southeast-1.amazonaws.com
 DOMAIN-SUFFIX,warnermediacdn.com
 DOMAIN-SUFFIX,youboranqs01.com
+USER-AGENT,hbo%20now*
+USER-AGENT,hbomax*

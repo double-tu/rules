@@ -5,7 +5,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 7983,
-      "ms": 65989,
+      "ms": 763,
       "format": "egern",
       "parsed": 323
     },
@@ -14,7 +14,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1426,
-      "ms": 1147,
+      "ms": 970,
       "format": "egern",
       "parsed": 59
     },
@@ -23,7 +23,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5256,
-      "ms": 1169,
+      "ms": 32782,
       "format": "egern",
       "parsed": 258
     },
@@ -32,7 +32,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1353,
-      "ms": 944,
+      "ms": 768,
       "format": "surge",
       "parsed": 34
     },
@@ -41,7 +41,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 244,
-      "ms": 947,
+      "ms": 764,
       "format": "surge",
       "parsed": 3
     },
@@ -50,16 +50,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 605,
-      "ms": 1191,
+      "ms": 3112,
       "format": "surge",
       "parsed": 13
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Copilot/Copilot.list",
       "status": "ok",
-      "via": "direct",
+      "via": "mirror",
       "bytes": 1822,
-      "ms": 987,
+      "ms": 10883,
       "format": "surge",
       "parsed": 49
     }
@@ -70,25 +70,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 19985,
-      "ms": 917,
+      "ms": 703,
       "format": "surge",
-      "parsed": 695
+      "parsed": 698
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Google/Google.list",
       "status": "ok",
       "via": "direct",
       "bytes": 23684,
-      "ms": 679,
+      "ms": 638,
       "format": "surge",
-      "parsed": 707
+      "parsed": 710
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Google.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 471,
-      "ms": 891,
+      "ms": 32152,
       "format": "egern",
       "parsed": 25
     },
@@ -97,7 +97,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 197692,
-      "ms": 749,
+      "ms": 5998,
       "format": "egern",
       "parsed": 8863
     }
@@ -108,16 +108,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5451,
-      "ms": 366,
+      "ms": 2473,
       "format": "surge",
-      "parsed": 183
+      "parsed": 190
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/YouTube.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 335,
-      "ms": 663,
+      "ms": 1043,
       "format": "egern",
       "parsed": 14
     },
@@ -126,7 +126,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2930,
-      "ms": 32410,
+      "ms": 499,
       "format": "egern",
       "parsed": 184
     }
@@ -137,7 +137,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1117,
-      "ms": 32143,
+      "ms": 375,
       "format": "surge",
       "parsed": 31
     },
@@ -146,7 +146,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 170,
-      "ms": 641,
+      "ms": 657,
       "format": "egern",
       "parsed": 6
     },
@@ -155,7 +155,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2246,
-      "ms": 677,
+      "ms": 30665,
       "format": "egern",
       "parsed": 77
     }
@@ -166,25 +166,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 20605,
-      "ms": 470,
+      "ms": 613,
       "format": "surge",
-      "parsed": 668
+      "parsed": 671
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/OneDrive/OneDrive.list",
       "status": "ok",
       "via": "direct",
       "bytes": 735,
-      "ms": 426,
+      "ms": 387,
       "format": "surge",
       "parsed": 16
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Microsoft.yaml",
       "status": "ok",
-      "via": "direct",
+      "via": "mirror",
       "bytes": 13789,
-      "ms": 658,
+      "ms": 90701,
       "format": "egern",
       "parsed": 669
     },
@@ -193,7 +193,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 14128,
-      "ms": 677,
+      "ms": 723,
       "format": "egern",
       "parsed": 767
     }
@@ -204,25 +204,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1805,
-      "ms": 401,
+      "ms": 368,
       "format": "surge",
-      "parsed": 20
+      "parsed": 43
     },
     {
       "url": "https://raw.githubusercontent.com/zqzess/rule_for_quantumultX/master/QuantumultX/rules/Apple.list",
       "status": "ok",
       "via": "direct",
       "bytes": 66708,
-      "ms": 645,
+      "ms": 632,
       "format": "surge",
-      "parsed": 1849
+      "parsed": 1872
     },
     {
       "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Apple.list",
       "status": "ok",
       "via": "direct",
       "bytes": 894,
-      "ms": 425,
+      "ms": 2499,
       "format": "surge",
       "parsed": 29
     },
@@ -231,16 +231,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1469,
-      "ms": 679,
+      "ms": 2474,
       "format": "egern",
-      "parsed": 44
+      "parsed": 67
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/apple.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 31579,
-      "ms": 680,
+      "ms": 648,
       "format": "egern",
       "parsed": 1585
     },
@@ -249,16 +249,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 196,
-      "ms": 650,
+      "ms": 618,
       "format": "surge",
       "parsed": 2
     },
     {
       "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/TestFlight/TestFlight.list",
       "status": "ok",
-      "via": "direct",
+      "via": "mirror",
       "bytes": 248,
-      "ms": 624,
+      "ms": 10613,
       "format": "surge",
       "parsed": 3
     }
@@ -269,25 +269,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 40424,
-      "ms": 762,
+      "ms": 393,
       "format": "surge",
-      "parsed": 1156
+      "parsed": 1157
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Netflix.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 10501,
-      "ms": 617,
+      "ms": 36384,
       "format": "egern",
-      "parsed": 497
+      "parsed": 498
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/netflix.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 20981,
-      "ms": 414,
+      "ms": 372,
       "format": "egern",
       "parsed": 1161
     }
@@ -298,16 +298,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5674,
-      "ms": 423,
+      "ms": 396,
       "format": "surge",
-      "parsed": 172
+      "parsed": 173
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Disney.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 5253,
-      "ms": 531,
+      "ms": 417,
       "format": "egern",
       "parsed": 248
     },
@@ -316,7 +316,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 4380,
-      "ms": 690,
+      "ms": 762,
       "format": "egern",
       "parsed": 235
     }
@@ -327,25 +327,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1784,
-      "ms": 437,
+      "ms": 374,
       "format": "surge",
-      "parsed": 47
+      "parsed": 49
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/HBO.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 1938,
-      "ms": 32430,
+      "ms": 384,
       "format": "egern",
-      "parsed": 92
+      "parsed": 94
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/hbo.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 1560,
-      "ms": 437,
+      "ms": 383,
       "format": "egern",
       "parsed": 89
     }
@@ -356,16 +356,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 749,
-      "ms": 1024,
+      "ms": 2542,
       "format": "surge",
-      "parsed": 16
+      "parsed": 18
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/PrimeVideo.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 691,
-      "ms": 457,
+      "ms": 487,
       "format": "egern",
       "parsed": 24
     },
@@ -374,7 +374,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 768,
-      "ms": 1059,
+      "ms": 3521,
       "format": "egern",
       "parsed": 31
     }
@@ -385,25 +385,25 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1246,
-      "ms": 611,
+      "ms": 615,
       "format": "surge",
-      "parsed": 29
+      "parsed": 30
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/Spotify.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 542,
-      "ms": 1691,
+      "ms": 32123,
       "format": "egern",
-      "parsed": 19
+      "parsed": 20
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/spotify.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 781,
-      "ms": 681,
+      "ms": 2468,
       "format": "egern",
       "parsed": 32
     }
@@ -414,16 +414,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1242,
-      "ms": 626,
+      "ms": 2489,
       "format": "surge",
-      "parsed": 34
+      "parsed": 35
     },
     {
       "url": "https://raw.githubusercontent.com/Repcz/Tool/X/Egern/Rules/TikTok.yaml",
       "status": "ok",
-      "via": "direct",
+      "via": "mirror",
       "bytes": 1768,
-      "ms": 661,
+      "ms": 40620,
       "format": "egern",
       "parsed": 81
     },
@@ -432,7 +432,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 3000,
-      "ms": 700,
+      "ms": 597,
       "format": "egern",
       "parsed": 125
     }
@@ -443,7 +443,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1680,
-      "ms": 442,
+      "ms": 368,
       "format": "surge",
       "parsed": 35
     },
@@ -452,7 +452,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1011,
-      "ms": 675,
+      "ms": 25080,
       "format": "egern",
       "parsed": 46
     }
@@ -463,7 +463,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1116,
-      "ms": 32429,
+      "ms": 652,
       "format": "surge",
       "parsed": 33
     },
@@ -472,7 +472,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 669,
-      "ms": 653,
+      "ms": 698,
       "format": "egern",
       "parsed": 34
     }
@@ -483,7 +483,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 287,
-      "ms": 602,
+      "ms": 630,
       "format": "surge",
       "parsed": 4
     },
@@ -492,7 +492,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1076,
-      "ms": 665,
+      "ms": 590,
       "format": "surge",
       "parsed": 29
     },
@@ -501,7 +501,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 14873,
-      "ms": 644,
+      "ms": 5830,
       "format": "egern",
       "parsed": 851
     }
@@ -512,7 +512,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 19725,
-      "ms": 705,
+      "ms": 621,
       "format": "surge",
       "parsed": 612
     },
@@ -521,7 +521,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2571,
-      "ms": 391,
+      "ms": 370,
       "format": "surge",
       "parsed": 69
     },
@@ -530,16 +530,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 11928,
-      "ms": 1205,
+      "ms": 639,
       "format": "egern",
       "parsed": 547
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/games.yaml",
       "status": "ok",
-      "via": "direct",
+      "via": "mirror",
       "bytes": 20390,
-      "ms": 32394,
+      "ms": 66042,
       "format": "egern",
       "parsed": 1055
     }
@@ -550,16 +550,16 @@
       "status": "ok",
       "via": "direct",
       "bytes": 4742,
-      "ms": 32216,
+      "ms": 382,
       "format": "surge",
-      "parsed": 123
+      "parsed": 127
     },
     {
       "url": "https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/bilibili.yaml",
       "status": "ok",
       "via": "direct",
       "bytes": 3228,
-      "ms": 871,
+      "ms": 32245,
       "format": "egern",
       "parsed": 128
     }
@@ -590,7 +590,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 26895,
-      "ms": 636,
+      "ms": 631,
       "format": "surge",
       "parsed": 781
     },
@@ -599,7 +599,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 109741,
-      "ms": 636,
+      "ms": 685,
       "format": "egern",
       "parsed": 6202
     },
@@ -608,7 +608,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 28127,
-      "ms": 670,
+      "ms": 653,
       "format": "surge",
       "parsed": 998
     }
@@ -619,7 +619,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 273,
-      "ms": 613,
+      "ms": 2855,
       "format": "egern",
       "parsed": 14
     },
@@ -628,7 +628,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1143,
-      "ms": 32176,
+      "ms": 31570,
       "format": "surge",
       "parsed": 37
     }
@@ -668,7 +668,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 325,
-      "ms": 615,
+      "ms": 634,
       "format": "egern",
       "parsed": 11
     }
@@ -679,7 +679,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2398,
-      "ms": 638,
+      "ms": 613,
       "format": "egern",
       "parsed": 101
     }

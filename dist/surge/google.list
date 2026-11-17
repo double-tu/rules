@@ -921,6 +921,9 @@ DOMAIN-KEYWORD,blogspot
 DOMAIN-KEYWORD,gmail
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,recaptcha
+USER-AGENT,%e4%ba%91%e7%ab%af%e7%a1%ac%e7%9b%98*
+USER-AGENT,*com.google.drive*
+USER-AGENT,google.drive*
 IP-CIDR,1.179.112.0/21
 IP-CIDR,102.204.125.0/24
 IP-CIDR,102.69.148.0/24

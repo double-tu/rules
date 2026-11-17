@@ -1862,6 +1862,40 @@ domain_wildcard_set:
   - macbookair.*
   - macbookpro.*
 
+user_agent_set:
+  - %e5%9c%b0%e5%9b%be*
+  - %e6%9f%a5%e6%89%be*
+  - %e8%ae%be%e7%bd%ae*
+  - *com.apple.maps?
+  - *com.apple.mobileme.fmip1
+  - *com.apple.mobileme.fmip1*
+  - *findmyiphone?
+  - *music?
+  - *weatherfoundation*
+  - applenews*
+  - appletv*
+  - appstore*
+  - com.apple.appstored*
+  - com.apple.geod*
+  - com.apple.maps
+  - com.apple.maps*
+  - com.apple.news*
+  - com.apple.trustd*
+  - com.apple.tv*
+  - findmy*
+  - findmyfriends*
+  - findmyiphone*
+  - fmdclient*
+  - fmfd*
+  - fmflocatord*
+  - geod*
+  - locationd*
+  - maps*
+  - music*
+  - passd*
+  - testflight*
+  - wallet*
+
 ip_cidr_set:
   - 139.178.128.0/18
   - 144.178.0.0/19

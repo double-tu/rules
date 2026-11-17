@@ -250,3 +250,4 @@ DOMAIN,espn.hb.omtrdc.net
 DOMAIN,espndotcom.tt.omtrdc.net
 DOMAIN,hulu.playback.edge.bamgrid.com
 DOMAIN-REGEX,^hses[1-7]?\.akamaized\.net$
+USER-AGENT,disney+*
