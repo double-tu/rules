@@ -31990,6 +31990,13 @@ domain_keyword_set:
   - speedtest
   - whatsapp
 
+user_agent_set:
+  - instantvideo.us*
+  - line%20tv*
+  - prime%20video*
+  - roam*
+  - speedtest*
+
 ip_cidr_set:
   - 1.201.0.0/24
   - 100.43.64.0/19
