@@ -1845,6 +1845,23 @@ domain_keyword_set:
   - smp-device
   - testflight
 
+domain_wildcard_set:
+  - *-content.icloud.com.cn
+  - apple.*
+  - apple.com.*
+  - appleworldwidedeveloper.*.net
+  - imac.*
+  - init*.push-apple.com.akadns.net
+  - init*.push.apple.com
+  - ipad.*
+  - ipadair.*
+  - ipadmini.*
+  - iphone.*
+  - ipod.*
+  - macbook.*
+  - macbookair.*
+  - macbookpro.*
+
 ip_cidr_set:
   - 139.178.128.0/18
   - 144.178.0.0/19

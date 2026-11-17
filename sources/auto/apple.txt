@@ -1,5 +1,5 @@
 # 苹果服务
-# auto: 5 成功 / 0 走缓存 / 0 失败，去重后如下
+# auto: 7 成功 / 0 走缓存 / 0 失败，去重后如下
 # 由 scripts/collect.py 生成，勿手改（改 upstreams.yml）
 
 DOMAIN-SUFFIX,100beatscheap.com
@@ -1840,6 +1840,21 @@ DOMAIN-KEYWORD,icloud
 DOMAIN-KEYWORD,icloud.com.akadns.net
 DOMAIN-KEYWORD,smp-device
 DOMAIN-KEYWORD,testflight
+DOMAIN-WILDCARD,*-content.icloud.com.cn
+DOMAIN-WILDCARD,apple.*
+DOMAIN-WILDCARD,apple.com.*
+DOMAIN-WILDCARD,appleworldwidedeveloper.*.net
+DOMAIN-WILDCARD,imac.*
+DOMAIN-WILDCARD,init*.push-apple.com.akadns.net
+DOMAIN-WILDCARD,init*.push.apple.com
+DOMAIN-WILDCARD,ipad.*
+DOMAIN-WILDCARD,ipadair.*
+DOMAIN-WILDCARD,ipadmini.*
+DOMAIN-WILDCARD,iphone.*
+DOMAIN-WILDCARD,ipod.*
+DOMAIN-WILDCARD,macbook.*
+DOMAIN-WILDCARD,macbookair.*
+DOMAIN-WILDCARD,macbookpro.*
 IP-CIDR,139.178.128.0/18
 IP-CIDR,139.178.128.0/18,no-resolve
 IP-CIDR,144.178.0.0/19

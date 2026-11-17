@@ -425,6 +425,16 @@ domain_keyword_set:
   - sentry
   - sift
 
+domain_regex_set:
+  - ^chatgpt-async-webps-prod-\\s+-\\d+\\.webpubsub\\.azure\\.com$
+  - ^chatgpt-async-webps-prod-\s+-\d+\.webpubsub\.azure\.com$
+
+domain_wildcard_set:
+  - scontent-*.xx.fbcdn.net
+
+url_regex_set:
+  - https://www\.google\.com/.*continue=https://gemini\.google\.com.+
+
 ip_cidr_set:
   - 160.79.104.0/21
   - 199.47.142.0/23

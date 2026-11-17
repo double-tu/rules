@@ -419,6 +419,9 @@ payload:
   - DOMAIN-KEYWORD,openaicom-api
   - DOMAIN-KEYWORD,sentry
   - DOMAIN-KEYWORD,sift
+  - DOMAIN-REGEX,^chatgpt-async-webps-prod-\\s+-\\d+\\.webpubsub\\.azure\\.com$
+  - DOMAIN-REGEX,^chatgpt-async-webps-prod-\s+-\d+\.webpubsub\.azure\.com$
+  - DOMAIN-REGEX,^scontent\-.*\.xx\.fbcdn\.net$
   - IP-CIDR,160.79.104.0/21
   - IP-CIDR,199.47.142.0/23
   - IP-CIDR,24.199.123.28/32,no-resolve

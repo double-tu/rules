@@ -1015,6 +1015,12 @@ domain_keyword_set:
   - steamstore
   - steamuserimages
 
+domain_regex_set:
+  - ^.+-mihayo\.akamaized\.net$
+  - ^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+  - ^epicgames-download\d-\d+\.file\.myqcloud\.com$
+  - ^epicgames-download\d\.akamaized\.net$
+
 ip_cidr_set:
   - 103.10.124.0/23
   - 103.28.54.0/24

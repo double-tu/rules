@@ -1009,6 +1009,10 @@ DOMAIN-KEYWORD,epicgames
 DOMAIN-KEYWORD,steambroadcast
 DOMAIN-KEYWORD,steamstore
 DOMAIN-KEYWORD,steamuserimages
+DOMAIN-REGEX,^.+-mihayo\.akamaized\.net$
+DOMAIN-REGEX,^cdn\d-epicgames-\d+\.file\.myqcloud\.com$
+DOMAIN-REGEX,^epicgames-download\d-\d+\.file\.myqcloud\.com$
+DOMAIN-REGEX,^epicgames-download\d\.akamaized\.net$
 IP-CIDR,103.10.124.0/23,no-resolve
 IP-CIDR,103.28.54.0/24,no-resolve
 IP-CIDR,103.4.114.233/32,no-resolve

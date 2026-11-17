@@ -252,3 +252,6 @@ domain_set:
   - espn.hb.omtrdc.net
   - espndotcom.tt.omtrdc.net
   - hulu.playback.edge.bamgrid.com
+
+domain_regex_set:
+  - ^hses[1-7]?\.akamaized\.net$

@@ -1839,6 +1839,21 @@ payload:
   - DOMAIN-KEYWORD,icloud.com.akadns.net
   - DOMAIN-KEYWORD,smp-device
   - DOMAIN-KEYWORD,testflight
+  - DOMAIN-REGEX,^.*\-content\.icloud\.com\.cn$
+  - DOMAIN-REGEX,^apple\..*$
+  - DOMAIN-REGEX,^apple\.com\..*$
+  - DOMAIN-REGEX,^appleworldwidedeveloper\..*\.net$
+  - DOMAIN-REGEX,^imac\..*$
+  - DOMAIN-REGEX,^init.*\.push\-apple\.com\.akadns\.net$
+  - DOMAIN-REGEX,^init.*\.push\.apple\.com$
+  - DOMAIN-REGEX,^ipad\..*$
+  - DOMAIN-REGEX,^ipadair\..*$
+  - DOMAIN-REGEX,^ipadmini\..*$
+  - DOMAIN-REGEX,^iphone\..*$
+  - DOMAIN-REGEX,^ipod\..*$
+  - DOMAIN-REGEX,^macbook\..*$
+  - DOMAIN-REGEX,^macbookair\..*$
+  - DOMAIN-REGEX,^macbookpro\..*$
   - IP-CIDR,139.178.128.0/18,no-resolve
   - IP-CIDR,144.178.0.0/19,no-resolve
   - IP-CIDR,144.178.36.0/22,no-resolve

@@ -1,12 +1,13 @@
 {
-  "generated_at": "2026-11-17T07:13:04Z",
+  "generated_at": "2026-11-17T07:23:40Z",
   "categories": {
     "adblock": {
-      "entries": 7870,
+      "entries": 7884,
       "by_kind": {
         "DOMAIN-SUFFIX": 5903,
         "DOMAIN": 1179,
         "DOMAIN-KEYWORD": 284,
+        "URL-REGEX": 14,
         "IP-CIDR": 501,
         "IP-CIDR6": 3
       },
@@ -17,11 +18,14 @@
       "origin": "auto"
     },
     "ai": {
-      "entries": 424,
+      "entries": 428,
       "by_kind": {
         "DOMAIN-SUFFIX": 299,
         "DOMAIN": 103,
         "DOMAIN-KEYWORD": 16,
+        "DOMAIN-REGEX": 2,
+        "DOMAIN-WILDCARD": 1,
+        "URL-REGEX": 1,
         "IP-CIDR": 4,
         "IP-CIDR6": 2
       },
@@ -31,12 +35,27 @@
       "has_auto": true,
       "origin": "auto"
     },
+    "apns": {
+      "entries": 11,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 1,
+        "DOMAIN": 1,
+        "IP-CIDR": 5,
+        "IP-CIDR6": 4
+      },
+      "title": "苹果 APNs 推送（节点选择）",
+      "heavy": false,
+      "has_manual": false,
+      "has_auto": true,
+      "origin": "auto"
+    },
     "apple": {
-      "entries": 1852,
+      "entries": 1867,
       "by_kind": {
         "DOMAIN-SUFFIX": 1557,
         "DOMAIN": 273,
         "DOMAIN-KEYWORD": 8,
+        "DOMAIN-WILDCARD": 15,
         "IP-CIDR": 10,
         "IP-CIDR6": 4
       },
@@ -60,22 +79,26 @@
       "origin": "auto"
     },
     "cn-direct": {
-      "entries": 110243,
+      "entries": 125440,
       "by_kind": {
-        "DOMAIN-SUFFIX": 109681,
-        "DOMAIN": 562
+        "DOMAIN-SUFFIX": 112095,
+        "DOMAIN": 776,
+        "DOMAIN-KEYWORD": 13,
+        "IP-CIDR": 8244,
+        "IP-CIDR6": 4312
       },
-      "title": "国内直连（Loyalsoldier direct，单一权威源）",
+      "title": "国内直连（ChinaMax / Loyalsoldier direct / Repcz Direct 三源合并）",
       "heavy": true,
       "has_manual": false,
       "has_auto": true,
       "origin": "auto"
     },
     "disney": {
-      "entries": 248,
+      "entries": 249,
       "by_kind": {
         "DOMAIN-SUFFIX": 242,
-        "DOMAIN": 6
+        "DOMAIN": 6,
+        "DOMAIN-REGEX": 1
       },
       "title": "Disney+",
       "heavy": false,
@@ -84,11 +107,12 @@
       "origin": "auto"
     },
     "game": {
-      "entries": 1066,
+      "entries": 1070,
       "by_kind": {
         "DOMAIN-SUFFIX": 923,
         "DOMAIN": 81,
         "DOMAIN-KEYWORD": 4,
+        "DOMAIN-REGEX": 4,
         "IP-CIDR": 58
       },
       "title": "游戏平台",
@@ -136,6 +160,20 @@
       "has_auto": true,
       "origin": "auto"
     },
+    "httpdns": {
+      "entries": 101,
+      "by_kind": {
+        "DOMAIN-SUFFIX": 49,
+        "DOMAIN": 9,
+        "IP-CIDR": 39,
+        "IP-CIDR6": 4
+      },
+      "title": "HTTPDNS 拦截（App 绕过系统 DNS 的直连通道）",
+      "heavy": false,
+      "has_manual": false,
+      "has_auto": true,
+      "origin": "auto"
+    },
     "lan": {
       "entries": 38,
       "by_kind": {
@@ -164,11 +202,12 @@
       "origin": "auto"
     },
     "netflix": {
-      "entries": 1563,
+      "entries": 1567,
       "by_kind": {
         "DOMAIN-SUFFIX": 30,
         "DOMAIN": 3,
         "DOMAIN-KEYWORD": 4,
+        "DOMAIN-REGEX": 4,
         "IP-CIDR": 1327,
         "IP-CIDR6": 199
       },
