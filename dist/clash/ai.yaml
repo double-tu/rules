@@ -334,11 +334,13 @@ payload:
   - DOMAIN,assets.msn.com
   - DOMAIN,aws-language-servers.us-east-1.amazonaws.com
   - DOMAIN,aws-toolkit-language-servers.amazonaws.com
+  - DOMAIN,bridge.claudeusercontent.com
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,browser-intake-us5-datadoghq.com
   - DOMAIN,cdn.growthbook.io
   - DOMAIN,cdn.usefathom.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,claude.site
   - DOMAIN,client-telemetry.us-east-1.amazonaws.com
   - DOMAIN,cloud.zed.dev
   - DOMAIN,cloudaicompanion.googleapis.com

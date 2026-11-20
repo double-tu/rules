@@ -337,11 +337,13 @@ domain_set:
   - assets.msn.com
   - aws-language-servers.us-east-1.amazonaws.com
   - aws-toolkit-language-servers.amazonaws.com
+  - bridge.claudeusercontent.com
   - browser-intake-datadoghq.com
   - browser-intake-us5-datadoghq.com
   - cdn.growthbook.io
   - cdn.usefathom.com
   - chat.openai.com.cdn.cloudflare.net
+  - claude.site
   - client-telemetry.us-east-1.amazonaws.com
   - cloud.zed.dev
   - cloudaicompanion.googleapis.com

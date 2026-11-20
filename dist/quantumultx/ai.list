@@ -334,11 +334,13 @@ HOST,appsgenaiserver-pa.googleapis.com
 HOST,assets.msn.com
 HOST,aws-language-servers.us-east-1.amazonaws.com
 HOST,aws-toolkit-language-servers.amazonaws.com
+HOST,bridge.claudeusercontent.com
 HOST,browser-intake-datadoghq.com
 HOST,browser-intake-us5-datadoghq.com
 HOST,cdn.growthbook.io
 HOST,cdn.usefathom.com
 HOST,chat.openai.com.cdn.cloudflare.net
+HOST,claude.site
 HOST,client-telemetry.us-east-1.amazonaws.com
 HOST,cloud.zed.dev
 HOST,cloudaicompanion.googleapis.com
