@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:40:56Z",
+  "generated_at": "2026-11-21T04:46:52Z",
   "categories": {
     "adblock": {
       "entries": 7884,
@@ -361,9 +361,9 @@
       "origin": "auto"
     },
     "us-finance": {
-      "entries": 425,
+      "entries": 446,
       "by_kind": {
-        "DOMAIN-SUFFIX": 417,
+        "DOMAIN-SUFFIX": 438,
         "DOMAIN": 4,
         "DOMAIN-KEYWORD": 3,
         "USER-AGENT": 1

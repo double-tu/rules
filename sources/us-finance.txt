@@ -74,3 +74,26 @@ DOMAIN-SUFFIX,threatmetrix.com
 DOMAIN-SUFFIX,experian.com
 DOMAIN-SUFFIX,equifax.com
 DOMAIN-SUFFIX,transunion.com
+
+# 社区补充（Yhxder/Proxy-Rules + missuo/surge_rules + chyq92/clash，2026-11 逐个 DoH 校验通过）
+DOMAIN-SUFFIX,bankofamerica1.sc.omtrdc.net
+DOMAIN-SUFFIX,bilt-prod-751317648.imgix.net
+DOMAIN-SUFFIX,bilt-rewards.stellate.sh
+DOMAIN-SUFFIX,bilt.edge.getunleash.io
+DOMAIN-SUFFIX,capitalone.ca
+DOMAIN-SUFFIX,capitalone.co.uk
+DOMAIN-SUFFIX,chasepaymentech.com
+DOMAIN-SUFFIX,citibankonline.com
+DOMAIN-SUFFIX,citidirect.com
+DOMAIN-SUFFIX,citizensaccess.com
+DOMAIN-SUFFIX,citizensbankonline.com
+DOMAIN-SUFFIX,discoverbank.com
+DOMAIN-SUFFIX,discoverbiz.com
+DOMAIN-SUFFIX,discoverit.com
+DOMAIN-SUFFIX,discoverpersonalloans.com
+DOMAIN-SUFFIX,equifax.ca
+DOMAIN-SUFFIX,experian.co.uk
+DOMAIN-SUFFIX,pncprepaidcard.com
+DOMAIN-SUFFIX,sofi.io
+DOMAIN-SUFFIX,usbankreliacard.com
+DOMAIN-SUFFIX,wellsfargoadvisors.com
