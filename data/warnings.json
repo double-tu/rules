@@ -5,6 +5,26 @@
       "apple"
     ]
   },
+  "cn-direct": {
+    "count": 51,
+    "sample": [
+      "alibaba",
+      "alipay",
+      "anquan",
+      "baidu",
+      "citic",
+      "cn",
+      "icbc",
+      "ms",
+      "shouji",
+      "sina",
+      "sohu",
+      "taobao",
+      "tmall",
+      "unicom",
+      "wang"
+    ]
+  },
   "game": {
     "count": 2,
     "sample": [
@@ -63,6 +83,26 @@
       "skype",
       "windows",
       "xbox"
+    ]
+  },
+  "proxy-global": {
+    "count": 188,
+    "sample": [
+      "ac",
+      "adult",
+      "ai",
+      "amazon",
+      "and",
+      "android",
+      "apple",
+      "ar",
+      "at",
+      "au",
+      "aws",
+      "azure",
+      "bbc",
+      "be",
+      "bet"
     ]
   },
   "youtube": {

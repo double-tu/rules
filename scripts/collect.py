@@ -186,13 +186,17 @@ def main():
     with ThreadPoolExecutor(max_workers=8) as ex:
         results = list(ex.map(collect_one, tasks))
 
+    excludes = {n: {e.lower() for e in (c or {}).get("exclude", [])} for n, c in cfgs.items()}
     by_cat, report = {}, {}
     for name, url, items, meta in results:
         report.setdefault(name, []).append({"url": url, **meta})
         if items:
             bucket = by_cat.setdefault(name, {})
+            ex = excludes.get(name, set())
             for kind, val, opts in items:
                 item = val if kind.startswith("IP-") else val.lower()
+                if item in ex or any(item.endswith("." + e) for e in ex):
+                    continue
                 if kind.startswith("IP-") and "no-resolve" in opts:
                     item += ",no-resolve"
                 bucket.setdefault(kind, set()).add(item)

@@ -168,3 +168,27 @@ httpdns:
   title: HTTPDNS 拦截（App 绕过系统 DNS 的直连通道）
   sources:
     - url: https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/httpdns.yaml
+
+# 美国金融：社区维护的银行/信用卡清单（我们自己的 sources/us-finance.txt 作为手写基线，build 时合并去重）
+us-finance:
+  title: 美国金融（自建基线 + 社区清单：Accademia / devinqiu888 / Apocalypsor / HotKids）
+  exclude:                       # 上游混进来的非金融域名（运营商/航司/AAA/德国信用分等）
+    - customer.io
+    - medallia.com
+    - datadoghq-browser-agent.com
+    - icanhazip.com
+    - att.com
+    - att.net
+    - aircanada.com
+    - aaa.com
+    - bonify.de
+    - bankofamerica
+  sources:
+    # PayPal 全量（含 Braintree / Xoom / Venmo / PayPal Credit 等关联品牌）
+    - url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/PayPal/PayPal.list
+    - url: https://raw.githubusercontent.com/QuixoticHeart/rule-set/ruleset/egern/paypal.yaml
+    # 社区银行清单
+    - url: https://raw.githubusercontent.com/Accademia/Additional_Rule_For_Clash/main/Bank/BankUS.yaml
+    - url: https://raw.githubusercontent.com/devinqiu888/USBANKS-rules/main/allinone.list
+    - url: https://raw.githubusercontent.com/Apocalypsor/Rules/master/Surge/USBank.list
+    - url: https://raw.githubusercontent.com/HotKids/Rules/master/Surge/RULE-SET/Finance.list

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:12:32Z",
+  "generated_at": "2026-11-21T04:40:28Z",
   "categories": {
     "adblock": {
       "entries": 7884,
@@ -361,15 +361,18 @@
       "origin": "auto"
     },
     "us-finance": {
-      "entries": 73,
+      "entries": 425,
       "by_kind": {
-        "DOMAIN-SUFFIX": 73
+        "DOMAIN-SUFFIX": 417,
+        "DOMAIN": 4,
+        "DOMAIN-KEYWORD": 3,
+        "USER-AGENT": 1
       },
       "title": "美国金融：银行 / 发卡行 / 券商 / 支付 / 风控指纹 / 征信（2026-11 DoH 校验）",
       "heavy": false,
       "has_manual": true,
-      "has_auto": false,
-      "origin": "manual"
+      "has_auto": true,
+      "origin": "manual+auto"
     },
     "us-finance-idv": {
       "entries": 8,
