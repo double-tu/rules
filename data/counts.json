@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:46:52Z",
+  "generated_at": "2026-11-21T04:47:05Z",
   "categories": {
     "adblock": {
       "entries": 7884,
@@ -81,9 +81,9 @@
       "origin": "auto"
     },
     "cn-direct": {
-      "entries": 125501,
+      "entries": 125507,
       "by_kind": {
-        "DOMAIN-SUFFIX": 112095,
+        "DOMAIN-SUFFIX": 112101,
         "DOMAIN": 776,
         "DOMAIN-KEYWORD": 13,
         "USER-AGENT": 61,
@@ -240,9 +240,9 @@
       "origin": "auto"
     },
     "proxy-global": {
-      "entries": 32475,
+      "entries": 32363,
       "by_kind": {
-        "DOMAIN-SUFFIX": 31168,
+        "DOMAIN-SUFFIX": 31056,
         "DOMAIN": 802,
         "DOMAIN-KEYWORD": 13,
         "USER-AGENT": 5,

@@ -31433,6 +31433,7 @@ payload:
   - DOMAIN-SUFFIX,echo-isoftstone.com
   - DOMAIN-SUFFIX,echo188.com
   - DOMAIN-SUFFIX,echoing.tech
+  - DOMAIN-SUFFIX,echooai.com
   - DOMAIN-SUFFIX,echoteen.com
   - DOMAIN-SUFFIX,echovelle.com
   - DOMAIN-SUFFIX,echu-cable.com
@@ -33748,6 +33749,7 @@ payload:
   - DOMAIN-SUFFIX,fayufaguo.com
   - DOMAIN-SUFFIX,fazhi12368.com
   - DOMAIN-SUFFIX,fazhijx.com
+  - DOMAIN-SUFFIX,fazhipro.com
   - DOMAIN-SUFFIX,fazz.fun
   - DOMAIN-SUFFIX,fb32dc52302e6b9b.com
   - DOMAIN-SUFFIX,fb46cd5483f029aa.com
@@ -60527,6 +60529,7 @@ payload:
   - DOMAIN-SUFFIX,lenovoconnect.com
   - DOMAIN-SUFFIX,lenovoeservice.com
   - DOMAIN-SUFFIX,lenovofile.com
+  - DOMAIN-SUFFIX,lenovofuturecenter.com
   - DOMAIN-SUFFIX,lenovogame.com
   - DOMAIN-SUFFIX,lenovohci.com
   - DOMAIN-SUFFIX,lenovohuishang.com
@@ -75473,6 +75476,7 @@ payload:
   - DOMAIN-SUFFIX,qpkaifa.com
   - DOMAIN-SUFFIX,qplus.com
   - DOMAIN-SUFFIX,qplusstatic.com
+  - DOMAIN-SUFFIX,qpmcn.com
   - DOMAIN-SUFFIX,qpmwg68cre9pci.com
   - DOMAIN-SUFFIX,qpoc.com
   - DOMAIN-SUFFIX,qpstar.com
@@ -78414,6 +78418,7 @@ payload:
   - DOMAIN-SUFFIX,saaas.com
   - DOMAIN-SUFFIX,saagasports.com
   - DOMAIN-SUFFIX,saasddos.com
+  - DOMAIN-SUFFIX,saasfz.com
   - DOMAIN-SUFFIX,saaslb.com
   - DOMAIN-SUFFIX,saasops.tech
   - DOMAIN-SUFFIX,saasruanjian.com
@@ -108442,6 +108447,7 @@ payload:
   - DOMAIN-SUFFIX,zhaokuaizhao.com
   - DOMAIN-SUFFIX,zhaolaobanla.com
   - DOMAIN-SUFFIX,zhaoliangji.com
+  - DOMAIN-SUFFIX,zhaoliangjipc.com
   - DOMAIN-SUFFIX,zhaoliming.net
   - DOMAIN-SUFFIX,zhaoming.biz
   - DOMAIN-SUFFIX,zhaomishijie.com
