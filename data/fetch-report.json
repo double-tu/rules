@@ -5,7 +5,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 8015,
-      "ms": 435,
+      "ms": 377,
       "format": "egern",
       "parsed": 324
     },
@@ -14,7 +14,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1475,
-      "ms": 79,
+      "ms": 88,
       "format": "egern",
       "parsed": 61
     },
@@ -23,7 +23,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5284,
-      "ms": 94,
+      "ms": 83,
       "format": "egern",
       "parsed": 259
     },
@@ -32,7 +32,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1353,
-      "ms": 31,
+      "ms": 68,
       "format": "surge",
       "parsed": 34
     },
@@ -41,7 +41,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 244,
-      "ms": 37,
+      "ms": 56,
       "format": "surge",
       "parsed": 3
     },
@@ -50,7 +50,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 605,
-      "ms": 77,
+      "ms": 56,
       "format": "surge",
       "parsed": 13
     },
@@ -59,7 +59,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1822,
-      "ms": 72,
+      "ms": 48,
       "format": "surge",
       "parsed": 49
     }
@@ -70,7 +70,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 19985,
-      "ms": 68,
+      "ms": 62,
       "format": "surge",
       "parsed": 698
     },
@@ -79,7 +79,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 23684,
-      "ms": 55,
+      "ms": 51,
       "format": "surge",
       "parsed": 710
     },
@@ -88,7 +88,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 471,
-      "ms": 80,
+      "ms": 65,
       "format": "egern",
       "parsed": 25
     },
@@ -97,7 +97,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 174218,
-      "ms": 86,
+      "ms": 105,
       "format": "egern",
       "parsed": 7974
     }
@@ -108,7 +108,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5451,
-      "ms": 47,
+      "ms": 44,
       "format": "surge",
       "parsed": 190
     },
@@ -117,7 +117,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 335,
-      "ms": 101,
+      "ms": 69,
       "format": "egern",
       "parsed": 14
     },
@@ -126,7 +126,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2930,
-      "ms": 99,
+      "ms": 68,
       "format": "egern",
       "parsed": 184
     }
@@ -137,7 +137,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1117,
-      "ms": 64,
+      "ms": 51,
       "format": "surge",
       "parsed": 31
     },
@@ -146,7 +146,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 170,
-      "ms": 82,
+      "ms": 71,
       "format": "egern",
       "parsed": 6
     },
@@ -155,7 +155,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2246,
-      "ms": 71,
+      "ms": 68,
       "format": "egern",
       "parsed": 77
     }
@@ -166,7 +166,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 20605,
-      "ms": 59,
+      "ms": 51,
       "format": "surge",
       "parsed": 671
     },
@@ -175,7 +175,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 735,
-      "ms": 70,
+      "ms": 48,
       "format": "surge",
       "parsed": 16
     },
@@ -184,7 +184,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 13789,
-      "ms": 78,
+      "ms": 120,
       "format": "egern",
       "parsed": 669
     },
@@ -193,7 +193,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 14128,
-      "ms": 67,
+      "ms": 69,
       "format": "egern",
       "parsed": 767
     }
@@ -204,7 +204,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1805,
-      "ms": 54,
+      "ms": 97,
       "format": "surge",
       "parsed": 43
     },
@@ -213,7 +213,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 66708,
-      "ms": 93,
+      "ms": 102,
       "format": "surge",
       "parsed": 1872
     },
@@ -222,7 +222,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 894,
-      "ms": 70,
+      "ms": 76,
       "format": "surge",
       "parsed": 29
     },
@@ -231,7 +231,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1469,
-      "ms": 65,
+      "ms": 109,
       "format": "egern",
       "parsed": 67
     },
@@ -240,7 +240,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 31579,
-      "ms": 88,
+      "ms": 74,
       "format": "egern",
       "parsed": 1585
     },
@@ -249,7 +249,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 196,
-      "ms": 49,
+      "ms": 48,
       "format": "surge",
       "parsed": 2
     },
@@ -258,7 +258,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 248,
-      "ms": 90,
+      "ms": 53,
       "format": "surge",
       "parsed": 3
     }
@@ -269,7 +269,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 40424,
-      "ms": 52,
+      "ms": 49,
       "format": "surge",
       "parsed": 1157
     },
@@ -278,7 +278,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 10501,
-      "ms": 65,
+      "ms": 69,
       "format": "egern",
       "parsed": 498
     },
@@ -287,7 +287,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 20981,
-      "ms": 94,
+      "ms": 81,
       "format": "egern",
       "parsed": 1161
     }
@@ -307,7 +307,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 5253,
-      "ms": 112,
+      "ms": 56,
       "format": "egern",
       "parsed": 248
     },
@@ -316,7 +316,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 4380,
-      "ms": 75,
+      "ms": 65,
       "format": "egern",
       "parsed": 235
     }
@@ -327,7 +327,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1784,
-      "ms": 74,
+      "ms": 72,
       "format": "surge",
       "parsed": 49
     },
@@ -336,7 +336,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1938,
-      "ms": 72,
+      "ms": 71,
       "format": "egern",
       "parsed": 94
     },
@@ -345,7 +345,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1560,
-      "ms": 74,
+      "ms": 61,
       "format": "egern",
       "parsed": 89
     }
@@ -356,7 +356,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 749,
-      "ms": 70,
+      "ms": 49,
       "format": "surge",
       "parsed": 18
     },
@@ -365,7 +365,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 691,
-      "ms": 66,
+      "ms": 99,
       "format": "egern",
       "parsed": 24
     },
@@ -374,7 +374,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 768,
-      "ms": 85,
+      "ms": 63,
       "format": "egern",
       "parsed": 31
     }
@@ -385,7 +385,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1246,
-      "ms": 22,
+      "ms": 39,
       "format": "surge",
       "parsed": 30
     },
@@ -394,7 +394,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 542,
-      "ms": 105,
+      "ms": 76,
       "format": "egern",
       "parsed": 20
     },
@@ -403,7 +403,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 781,
-      "ms": 85,
+      "ms": 65,
       "format": "egern",
       "parsed": 32
     }
@@ -414,7 +414,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1242,
-      "ms": 57,
+      "ms": 43,
       "format": "surge",
       "parsed": 35
     },
@@ -423,7 +423,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1768,
-      "ms": 85,
+      "ms": 80,
       "format": "egern",
       "parsed": 81
     },
@@ -432,7 +432,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 3000,
-      "ms": 65,
+      "ms": 77,
       "format": "egern",
       "parsed": 125
     }
@@ -443,7 +443,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1680,
-      "ms": 48,
+      "ms": 55,
       "format": "surge",
       "parsed": 35
     },
@@ -452,7 +452,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1011,
-      "ms": 78,
+      "ms": 79,
       "format": "egern",
       "parsed": 46
     }
@@ -463,7 +463,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1116,
-      "ms": 60,
+      "ms": 45,
       "format": "surge",
       "parsed": 33
     },
@@ -472,7 +472,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 669,
-      "ms": 60,
+      "ms": 73,
       "format": "egern",
       "parsed": 34
     }
@@ -483,7 +483,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 287,
-      "ms": 65,
+      "ms": 48,
       "format": "surge",
       "parsed": 4
     },
@@ -492,7 +492,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1076,
-      "ms": 70,
+      "ms": 49,
       "format": "surge",
       "parsed": 29
     },
@@ -501,7 +501,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 14873,
-      "ms": 67,
+      "ms": 63,
       "format": "egern",
       "parsed": 851
     }
@@ -512,7 +512,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 19725,
-      "ms": 57,
+      "ms": 82,
       "format": "surge",
       "parsed": 612
     },
@@ -521,7 +521,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2571,
-      "ms": 61,
+      "ms": 53,
       "format": "surge",
       "parsed": 69
     },
@@ -530,7 +530,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 11928,
-      "ms": 69,
+      "ms": 64,
       "format": "egern",
       "parsed": 547
     },
@@ -539,7 +539,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 20390,
-      "ms": 80,
+      "ms": 69,
       "format": "egern",
       "parsed": 1055
     }
@@ -550,7 +550,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 4742,
-      "ms": 60,
+      "ms": 41,
       "format": "surge",
       "parsed": 127
     },
@@ -559,7 +559,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 3228,
-      "ms": 100,
+      "ms": 67,
       "format": "egern",
       "parsed": 128
     }
@@ -590,7 +590,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 26895,
-      "ms": 63,
+      "ms": 47,
       "format": "surge",
       "parsed": 781
     },
@@ -608,7 +608,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 28127,
-      "ms": 80,
+      "ms": 47,
       "format": "surge",
       "parsed": 998
     }
@@ -619,7 +619,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 273,
-      "ms": 88,
+      "ms": 75,
       "format": "egern",
       "parsed": 14
     },
@@ -628,7 +628,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 1143,
-      "ms": 63,
+      "ms": 18,
       "format": "surge",
       "parsed": 37
     }
@@ -668,7 +668,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 325,
-      "ms": 107,
+      "ms": 83,
       "format": "egern",
       "parsed": 11
     }
@@ -679,7 +679,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2398,
-      "ms": 95,
+      "ms": 70,
       "format": "egern",
       "parsed": 101
     }
