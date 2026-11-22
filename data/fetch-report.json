@@ -570,7 +570,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 315089,
-      "ms": 188,
+      "ms": 126,
       "format": "egern",
       "parsed": 17451
     },
@@ -578,10 +578,10 @@
       "url": "https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/proxy.txt",
       "status": "ok",
       "via": "direct",
-      "bytes": 780362,
-      "ms": 118,
+      "bytes": 781079,
+      "ms": 173,
       "format": "surge",
-      "parsed": 27248
+      "parsed": 27271
     }
   ],
   "adblock": [
@@ -639,7 +639,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 3262452,
-      "ms": 469,
+      "ms": 482,
       "format": "surge",
       "parsed": 123112
     },
@@ -648,7 +648,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 2936632,
-      "ms": 249,
+      "ms": 238,
       "format": "surge",
       "parsed": 110250
     },
@@ -657,7 +657,7 @@
       "status": "ok",
       "via": "direct",
       "bytes": 823,
-      "ms": 103,
+      "ms": 166,
       "format": "egern",
       "parsed": 34
     }

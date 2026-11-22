@@ -5031,6 +5031,7 @@ domain_suffix_set:
   - bravoteens.com
   - bravotube.net
   - bravotube.tv
+  - bravotv.com
   - brawlstars.com
   - brawlstarsgame.com
   - brazilpartneruniversity.com
@@ -6475,6 +6476,7 @@ domain_suffix_set:
   - cna.com.tw
   - cnabc.com
   - cnbc.com
+  - cnbccouncils.com
   - cnbcfm.com
   - cnbeta.com
   - cnbeta.com.tw
@@ -9835,6 +9837,7 @@ domain_suffix_set:
   - fantom.network
   - fantv.hk
   - fanyue.info
+  - fanza.jp
   - fap-xxx.com
   - fap18.net
   - fap666.com
@@ -10377,6 +10380,7 @@ domain_suffix_set:
   - fo
   - foampositeshoes.com
   - fochk.org
+  - focusfeatures.com
   - focustaiwan.tw
   - focusvpn.com
   - fofg-europe.net
@@ -12516,6 +12520,7 @@ domain_suffix_set:
   - hayday.com
   - haydaygame.com
   - haygo.com
+  - hayu.com
   - hayya.ae
   - hbabit.com
   - hbfile.net
@@ -13030,6 +13035,7 @@ domain_suffix_set:
   - hkreadingcity.net
   - hkreporter.com
   - hkreporter.loved.hk
+  - hkt
   - hkt-enterprise.com
   - hkt-eye.com
   - hkt.com
@@ -14086,6 +14092,7 @@ domain_suffix_set:
   - ilife.wang
   - illawarramercury.com.au
   - illgames.jp
+  - illumination.com
   - illusion.co.jp
   - illusion.jp
   - illusion111.com
@@ -18514,7 +18521,6 @@ domain_suffix_set:
   - msk.kitazawa.me
   - msn.com
   - msn.net
-  - msnbc.com
   - msnewskids.com
   - msnewskids.net
   - msnewskids.org
@@ -19012,8 +19018,11 @@ domain_suffix_set:
   - nbcolympics.com
   - nbcsports.com
   - nbcudigitaladops.com
+  - nbcumv.com
   - nbcuni.com
+  - nbcunicareers.com
   - nbcuniversal.com
+  - nbcuniversalprivacy.com
   - nbdh15.buzz
   - nbtvpn.com
   - nbys.tv
@@ -20929,6 +20938,7 @@ domain_suffix_set:
   - pca.st
   - pcanywhere.net
   - pcc.gov.tw
+  - pccw
   - pccw.com
   - pccwglobal.com
   - pccwsolutions.com
@@ -25827,6 +25837,7 @@ domain_suffix_set:
   - telegraph.co.uk
   - telekom.com
   - telekom.de
+  - telemundo.com
   - telerik.com
   - telesco.pe
   - telesec.de
@@ -26556,6 +26567,7 @@ domain_suffix_set:
   - torrenty.org
   - torrentz.eu
   - torrindex.net
+  - tortoisegit.org
   - tortoisesvn.net
   - torvpn.com
   - tosh.comedycentral.com
@@ -27230,6 +27242,7 @@ domain_suffix_set:
   - udnfunlife.com
   - udomain.hk
   - udtrucksmeena.com
+  - udxfpp.com
   - ueberamazon.de
   - uflash.tv
   - uforadio.com.tw
@@ -27341,11 +27354,18 @@ domain_suffix_set:
   - unityedu.cn
   - unityedu.com
   - unityedu.com.cn
+  - universalbeijingresort.com
+  - universalhorrorunleashed.com
+  - universalkidsresort.com
   - universalorlando.com
+  - universalpictures.co.uk
   - universalpictures.com
+  - universalpicturesathome.com
   - universalpicturesinternational.com
+  - universalproductsexperiences.com
   - universalscalablefirmware.org
   - universalstudioshollywood.com
+  - universalukproject.co.uk
   - universitypressscholarship.com
   - unix100.com
   - unknownspace.org
@@ -27379,6 +27399,7 @@ domain_suffix_set:
   - upfrontcfd.com
   - upfrontfea.com
   - upghsbc.com
+  - uphe.com
   - upholdjustice.org
   - upjav.cc
   - upjav.org
@@ -27450,6 +27471,7 @@ domain_suffix_set:
   - usertrust.com
   - usfk.mil
   - usgs.gov
+  - usj.co.jp
   - usma.edu
   - usmc.mil
   - usno.navy.mil
