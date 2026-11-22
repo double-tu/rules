@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-21T04:47:05Z",
+  "generated_at": "2026-11-22T03:24:00Z",
   "categories": {
     "adblock": {
       "entries": 7884,
@@ -18,11 +18,11 @@
       "origin": "auto"
     },
     "ai": {
-      "entries": 431,
+      "entries": 432,
       "by_kind": {
         "DOMAIN-SUFFIX": 300,
         "DOMAIN": 105,
-        "DOMAIN-KEYWORD": 16,
+        "DOMAIN-KEYWORD": 17,
         "DOMAIN-REGEX": 2,
         "DOMAIN-WILDCARD": 1,
         "URL-REGEX": 1,
