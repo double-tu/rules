@@ -1,42 +1,74 @@
 {
-  "cn-direct": {
-    "count": 51,
+  "apple": {
+    "count": 1,
     "sample": [
-      "alibaba",
-      "alipay",
-      "anquan",
-      "baidu",
-      "citic",
-      "cn",
-      "icbc",
-      "ms",
-      "shouji",
-      "sina",
-      "sohu",
-      "taobao",
-      "tmall",
-      "unicom",
-      "wang"
+      "apple"
     ]
   },
-  "proxy-global": {
-    "count": 190,
+  "game": {
+    "count": 2,
     "sample": [
-      "ac",
-      "adult",
-      "ai",
-      "amazon",
-      "and",
+      "playstation",
+      "xbox"
+    ]
+  },
+  "google": {
+    "count": 14,
+    "sample": [
       "android",
-      "apple",
-      "ar",
-      "at",
-      "au",
-      "aws",
+      "chrome",
+      "dclk",
+      "gbiz",
+      "gle",
+      "gmail",
+      "goog",
+      "google",
+      "guge",
+      "hangout",
+      "nexus",
+      "xn--flw351e",
+      "xn--qcka1pmc",
+      "youtube"
+    ]
+  },
+  "hbo": {
+    "count": 1,
+    "sample": [
+      "hbo"
+    ]
+  },
+  "lan": {
+    "count": 7,
+    "sample": [
+      "home",
+      "internal",
+      "ip6-localhost",
+      "ip6-loopback",
+      "lan",
+      "local",
+      "localhost"
+    ]
+  },
+  "microsoft": {
+    "count": 11,
+    "sample": [
       "azure",
-      "bbc",
-      "be",
-      "bet"
+      "bing",
+      "hotmail",
+      "img-prod-cms-rt-microsoft-com",
+      "microsoft",
+      "office",
+      "onedrive",
+      "onedriveupdater",
+      "skype",
+      "windows",
+      "xbox"
+    ]
+  },
+  "youtube": {
+    "count": 1,
+    "sample": [
+      "youtube"
     ]
   }
 }
