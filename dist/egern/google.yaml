@@ -234,6 +234,7 @@ domain_suffix_set:
   - gbiz
   - gcp.gvt2.com
   - gcr.io
+  - gemma.ai
   - gerritcodereview.com
   - get.app
   - get.dev

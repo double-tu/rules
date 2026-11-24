@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-23T03:55:12Z",
+  "generated_at": "2026-11-24T07:02:50Z",
   "categories": {
     "adblock": {
       "entries": 8343,
@@ -18,9 +18,9 @@
       "origin": "auto"
     },
     "ai": {
-      "entries": 432,
+      "entries": 433,
       "by_kind": {
-        "DOMAIN-SUFFIX": 300,
+        "DOMAIN-SUFFIX": 301,
         "DOMAIN": 105,
         "DOMAIN-KEYWORD": 17,
         "DOMAIN-REGEX": 2,
@@ -139,9 +139,9 @@
       "origin": "auto"
     },
     "google": {
-      "entries": 8013,
+      "entries": 8014,
       "by_kind": {
-        "DOMAIN-SUFFIX": 900,
+        "DOMAIN-SUFFIX": 901,
         "DOMAIN": 15,
         "DOMAIN-KEYWORD": 5,
         "USER-AGENT": 3,
