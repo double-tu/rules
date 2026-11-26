@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T05:37:15Z",
+  "generated_at": "2026-11-26T05:21:23Z",
   "categories": {
     "adblock": {
       "entries": 8343,
@@ -139,14 +139,14 @@
       "origin": "auto"
     },
     "google": {
-      "entries": 8014,
+      "entries": 7839,
       "by_kind": {
         "DOMAIN-SUFFIX": 901,
         "DOMAIN": 15,
         "DOMAIN-KEYWORD": 5,
         "USER-AGENT": 3,
-        "IP-CIDR": 2999,
-        "IP-CIDR6": 4091
+        "IP-CIDR": 3023,
+        "IP-CIDR6": 3892
       },
       "title": "谷歌服务",
       "heavy": false,
