@@ -783,6 +783,7 @@ HOST-SUFFIX,xbx.lv
 HOST-SUFFIX,xiaoice.com
 HOST-SUFFIX,yammer.com
 HOST-SUFFIX,yammerusercontent.com
+HOST,aurora-customization-usw2.lithium.com
 HOST,github-api.arkoselabs.com
 HOST,github-cloud.s3.amazonaws.com
 HOST,github-production-release-asset-2e65be.s3.amazonaws.com
