@@ -375,7 +375,6 @@ domain_set:
   - idetoolkits.amazonwebservices.com
   - imagine.meta.com
   - in.appcenter.ms
-  - inference.codeium.com
   - jules.google.com
   - llama.developer.meta.com
   - location.microsoft.com

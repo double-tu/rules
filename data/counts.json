@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T05:16:42Z",
+  "generated_at": "2026-11-28T04:53:45Z",
   "categories": {
     "adblock": {
       "entries": 8343,
@@ -18,10 +18,10 @@
       "origin": "auto"
     },
     "ai": {
-      "entries": 433,
+      "entries": 432,
       "by_kind": {
         "DOMAIN-SUFFIX": 301,
-        "DOMAIN": 105,
+        "DOMAIN": 104,
         "DOMAIN-KEYWORD": 17,
         "DOMAIN-REGEX": 2,
         "DOMAIN-WILDCARD": 1,
@@ -111,9 +111,9 @@
       "origin": "auto"
     },
     "game": {
-      "entries": 1070,
+      "entries": 1071,
       "by_kind": {
-        "DOMAIN-SUFFIX": 923,
+        "DOMAIN-SUFFIX": 924,
         "DOMAIN": 81,
         "DOMAIN-KEYWORD": 4,
         "DOMAIN-REGEX": 4,
